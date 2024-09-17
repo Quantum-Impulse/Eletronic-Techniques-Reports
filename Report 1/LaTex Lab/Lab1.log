@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  17 SEP 2024 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  17 SEP 2024 16:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,7 +290,8 @@ Package color Info: Driver file: pdftex.def on input line 149.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box66
-) (Lab1.aux)
+)
+No file Lab1.aux.
 \openout1 = `Lab1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -311,7 +312,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
- (/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+(/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
 \scratchdimen=\dimen172
@@ -455,10 +456,10 @@ Package rerunfilecheck Info: Checksums for `Lab1.out':
 (rerunfilecheck)             After:  5936CD4E667F3D4B592424311DB41223;3402.
  ) 
 Here is how much of TeX's memory you used:
- 14479 strings out of 475833
- 294374 string characters out of 2775517
- 638302 words of memory out of 3000000
- 36955 multiletter control sequences out of 15000+600000
+ 14476 strings out of 475833
+ 294254 string characters out of 2775517
+ 638311 words of memory out of 3000000
+ 36954 multiletter control sequences out of 15000+600000
  563452 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  75i,10n,80p,348b,900s stack positions out of 5000i,500n,10000p,200000b,80000s
