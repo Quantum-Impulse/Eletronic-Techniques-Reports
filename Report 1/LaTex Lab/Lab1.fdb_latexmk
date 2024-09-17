@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1726607604.79589 "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 1/LaTex Lab/Lab1.tex" "Lab1.pdf" "Lab1" 1726607606.93485 2
+["pdflatex"] 1726607784.75795 "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 1/LaTex Lab/Lab1.tex" "Lab1.pdf" "Lab1" 1726607786.90508 2
   "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 1/LaTex Lab/Lab1.tex" 1726595620.68198 6874 dc26904f2ca1e3eee06b7e3646ab446b ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1726529996.36837 25678 aa7c8fd3909e804e7d85441c21595406 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1726529943.65786 8733517 1da6dbae8d83d2543fb040d0b7350f5c ""
@@ -82,8 +82,8 @@
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1726529955.47688 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/translations.sty" 1726529955.48084 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1726529987.55577 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Lab1.aux" 1726607606.80117 5217 f8aa9ce7b8c5c9366a97913875fc07f4 "pdflatex"
-  "Lab1.out" 1726607606.80226 3402 5936cd4e667f3d4b592424311db41223 "pdflatex"
+  "Lab1.aux" 1726607786.75969 5217 f8aa9ce7b8c5c9366a97913875fc07f4 "pdflatex"
+  "Lab1.out" 1726607786.76313 3402 5936cd4e667f3d4b592424311db41223 "pdflatex"
   "Lab1.tex" 1726595620.68198 6874 dc26904f2ca1e3eee06b7e3646ab446b ""
   "img/Lab1_1.png" 1726534235.71795 178105 d96df91646503a0c1568cdc6833d4df6 ""
   "img/Lab1_4.png" 1726535572.49471 184021 b50d376989738bf2437ab1969f6c6f04 ""
