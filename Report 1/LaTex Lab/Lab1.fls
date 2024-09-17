@@ -110,6 +110,9 @@ INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend-dev/l3backend-pdftex.def
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend-dev/l3backend-pdftex.def
+INPUT ./Lab1.aux
+INPUT ./Lab1.aux
+INPUT Lab1.aux
 OUTPUT Lab1.aux
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -140,11 +143,80 @@ INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fon
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmtt10.tfm
+INPUT ./img/other/Open_Circuit.png
+INPUT ./img/other/Open_Circuit.png
+INPUT ./img/other/Open_Circuit.png
+INPUT ./img/other/Open_Circuit.png
+INPUT ./img/other/Open_Circuit.png
+INPUT ./img/other/Open_Circuit.png
+INPUT ./img/other/Open_Circuit.png
+INPUT ./img/other/Close_Circuit.png
+INPUT ./img/other/Close_Circuit.png
+INPUT ./img/other/Close_Circuit.png
+INPUT ./img/other/Close_Circuit.png
+INPUT ./img/other/Close_Circuit.png
+INPUT ./img/other/Close_Circuit.png
+INPUT ./img/other/Close_Circuit.png
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
+INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT ./img/Lab1_1.png
+INPUT ./img/Lab1_1.png
+INPUT ./img/Lab1_1.png
+INPUT ./img/Lab1_1.png
+INPUT ./img/Lab1_1.png
+INPUT ./img/Lab1_1.png
+INPUT ./img/Lab1_1.png
+INPUT ./img/Lab1_4.png
+INPUT ./img/Lab1_4.png
+INPUT ./img/Lab1_4.png
+INPUT ./img/Lab1_4.png
+INPUT ./img/Lab1_4.png
+INPUT ./img/Lab1_4.png
+INPUT ./img/Lab1_4.png
+INPUT ./img/Lab1_5.png
+INPUT ./img/Lab1_5.png
+INPUT ./img/Lab1_5.png
+INPUT ./img/Lab1_5.png
+INPUT ./img/Lab1_5.png
+INPUT ./img/Lab1_5.png
+INPUT ./img/Lab1_5.png
+INPUT ./img/Lab1_6.png
+INPUT ./img/Lab1_6.png
+INPUT ./img/Lab1_6.png
+INPUT ./img/Lab1_6.png
+INPUT ./img/Lab1_6.png
+INPUT ./img/Lab1_6.png
+INPUT ./img/Lab1_6.png
+INPUT ./img/Lab1_7.png
+INPUT ./img/Lab1_7.png
+INPUT ./img/Lab1_7.png
+INPUT ./img/Lab1_7.png
+INPUT ./img/Lab1_7.png
+INPUT ./img/Lab1_7.png
+INPUT ./img/Lab1_7.png
+INPUT ./img/Lab1_8.png
+INPUT ./img/Lab1_8.png
+INPUT ./img/Lab1_8.png
+INPUT ./img/Lab1_8.png
+INPUT ./img/Lab1_8.png
+INPUT ./img/Lab1_8.png
+INPUT ./img/Lab1_8.png
+INPUT ./img/Lab1_8a.png
+INPUT ./img/Lab1_8a.png
+INPUT ./img/Lab1_8a.png
+INPUT ./img/Lab1_8a.png
+INPUT ./img/Lab1_8a.png
+INPUT ./img/Lab1_8a.png
+INPUT ./img/Lab1_8a.png
+INPUT ./img/Lab1_9.png
+INPUT ./img/Lab1_9.png
+INPUT ./img/Lab1_9.png
+INPUT ./img/Lab1_9.png
+INPUT ./img/Lab1_9.png
+INPUT ./img/Lab1_9.png
+INPUT ./img/Lab1_9.png
 INPUT Lab1.aux
 INPUT ./Lab1.out
 INPUT ./Lab1.out
@@ -166,5 +238,3 @@ INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fon
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb
-INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb
