@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  18 SEP 2024 02:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  18 SEP 2024 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,6 +294,18 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 
 LaTeX Warning: Label `fig:terminated_waveform' multiply defined.
 
+
+LaTeX Warning: Label `fig:graph1' multiply defined.
+
+
+LaTeX Warning: Label `fig:graph1' multiply defined.
+
+
+LaTeX Warning: Label `fig:graph1' multiply defined.
+
+
+LaTeX Warning: Label `fig:graph1' multiply defined.
+
 )
 \openout1 = `Lab1.aux'.
 
@@ -351,12 +363,12 @@ Overfull \hbox (3.24135pt too wide) in paragraph at lines 29--31
 \OT1/cmr/m/n/10 of a breadboard. The multimeter's buzzing feature was used to identify connected
  []
 
-<img/other/Open_Circuit.png, id=123, 871.255pt x 240.9pt>
+<img/other/Open_Circuit.png, id=159, 871.255pt x 240.9pt>
 File: img/other/Open_Circuit.png Graphic file (type png)
 <use img/other/Open_Circuit.png>
 Package pdftex.def Info: img/other/Open_Circuit.png  used on input line 34.
 (pdftex.def)             Requested size: 276.00105pt x 76.31029pt.
-<img/other/Close_Circuit.png, id=125, 844.15375pt x 244.915pt>
+<img/other/Close_Circuit.png, id=161, 844.15375pt x 244.915pt>
 File: img/other/Close_Circuit.png Graphic file (type png)
 <use img/other/Close_Circuit.png>
 Package pdftex.def Info: img/other/Close_Circuit.png  used on input line 41.
@@ -366,7 +378,7 @@ Package pdftex.def Info: img/other/Close_Circuit.png  used on input line 41.
 [1
 
 {/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./img/other/Open_Circuit.png>]
-<img/Lab1_1.png, id=139, 1024.82875pt x 516.93124pt>
+<img/Lab1_1.png, id=175, 1024.82875pt x 516.93124pt>
 File: img/Lab1_1.png Graphic file (type png)
 <use img/Lab1_1.png>
 Package pdftex.def Info: img/Lab1_1.png  used on input line 78.
@@ -374,7 +386,7 @@ Package pdftex.def Info: img/Lab1_1.png  used on input line 78.
 
 
 [2 <./img/other/Close_Circuit.png>]
-<img/Lab1_4.png, id=151, 868.24374pt x 563.10374pt>
+<img/Lab1_4.png, id=187, 868.24374pt x 563.10374pt>
 File: img/Lab1_4.png Graphic file (type png)
 <use img/Lab1_4.png>
 Package pdftex.def Info: img/Lab1_4.png  used on input line 109.
@@ -382,12 +394,12 @@ Package pdftex.def Info: img/Lab1_4.png  used on input line 109.
 
 
 [3 <./img/Lab1_1.png>]
-<img/Lab1_5.png, id=159, 1087.06125pt x 550.055pt>
+<img/Lab1_5.png, id=195, 1087.06125pt x 550.055pt>
 File: img/Lab1_5.png Graphic file (type png)
 <use img/Lab1_5.png>
 Package pdftex.def Info: img/Lab1_5.png  used on input line 119.
 (pdftex.def)             Requested size: 310.4979pt x 157.11142pt.
-<img/Lab1_6.png, id=160, 1138.2525pt x 636.3775pt>
+<img/Lab1_6.png, id=196, 1138.2525pt x 636.3775pt>
 File: img/Lab1_6.png Graphic file (type png)
 <use img/Lab1_6.png>
 Package pdftex.def Info: img/Lab1_6.png  used on input line 129.
@@ -395,12 +407,12 @@ Package pdftex.def Info: img/Lab1_6.png  used on input line 129.
 
 
 [4 <./img/Lab1_4.png> <./img/Lab1_5.png>]
-<img/Lab1_7.png, id=169, 927.465pt x 469.755pt>
+<img/Lab1_7.png, id=205, 927.465pt x 469.755pt>
 File: img/Lab1_7.png Graphic file (type png)
 <use img/Lab1_7.png>
 Package pdftex.def Info: img/Lab1_7.png  used on input line 139.
 (pdftex.def)             Requested size: 310.4979pt x 157.26317pt.
-<img/Lab1_8.png, id=170, 1007.765pt x 459.7175pt>
+<img/Lab1_8.png, id=206, 1007.765pt x 459.7175pt>
 File: img/Lab1_8.png Graphic file (type png)
 <use img/Lab1_8.png>
 Package pdftex.def Info: img/Lab1_8.png  used on input line 149.
@@ -408,12 +420,12 @@ Package pdftex.def Info: img/Lab1_8.png  used on input line 149.
 
 
 [5 <./img/Lab1_6.png> <./img/Lab1_7.png>]
-<img/Lab1_8a.png, id=179, 392.4261pt x 289.08pt>
+<img/Lab1_8a.png, id=215, 392.4261pt x 289.08pt>
 File: img/Lab1_8a.png Graphic file (type png)
 <use img/Lab1_8a.png>
 Package pdftex.def Info: img/Lab1_8a.png  used on input line 156.
 (pdftex.def)             Requested size: 310.4979pt x 228.7368pt.
-<img/Lab1_9.png, id=180, 718.685pt x 299.1175pt>
+<img/Lab1_9.png, id=216, 718.685pt x 299.1175pt>
 File: img/Lab1_9.png Graphic file (type png)
 <use img/Lab1_9.png>
 Package pdftex.def Info: img/Lab1_9.png  used on input line 164.
@@ -421,7 +433,7 @@ Package pdftex.def Info: img/Lab1_9.png  used on input line 164.
 
 
 [6 <./img/Lab1_8.png> <./img/Lab1_8a.png>]
-<./img/Lab2_curcuitA.png, id=190, 370.38374pt x 204.765pt>
+<./img/Lab2_curcuitA.png, id=226, 370.38374pt x 204.765pt>
 File: ./img/Lab2_curcuitA.png Graphic file (type png)
 <use ./img/Lab2_curcuitA.png>
 Package pdftex.def Info: ./img/Lab2_curcuitA.png  used on input line 195.
@@ -429,7 +441,7 @@ Package pdftex.def Info: ./img/Lab2_curcuitA.png  used on input line 195.
 
 
 [7 <./img/Lab1_9.png>]
-<./img/Lab2_curcuitB.png, id=201, 356.33125pt x 193.72375pt>
+<./img/Lab2_curcuitB.png, id=237, 356.33125pt x 193.72375pt>
 File: ./img/Lab2_curcuitB.png Graphic file (type png)
 <use ./img/Lab2_curcuitB.png>
 Package pdftex.def Info: ./img/Lab2_curcuitB.png  used on input line 217.
@@ -441,12 +453,12 @@ Overfull \hbox (13.13948pt too wide) in paragraph at lines 245--248
 []\OT1/cmr/m/n/10 The observed waveforms confirmed that the output waveform becomes smoother
  []
 
-<./img/Lab2_1a.png, id=209, 414.8298pt x 327.3831pt>
+<./img/Lab2_1a.png, id=245, 414.8298pt x 327.3831pt>
 File: ./img/Lab2_1a.png Graphic file (type png)
 <use ./img/Lab2_1a.png>
 Package pdftex.def Info: ./img/Lab2_1a.png  used on input line 251.
 (pdftex.def)             Requested size: 207.0021pt x 163.36143pt.
-<./img/Lab2_1b_2k.png, id=210, 421.3341pt x 327.3831pt>
+<./img/Lab2_1b_2k.png, id=246, 421.3341pt x 327.3831pt>
 File: ./img/Lab2_1b_2k.png Graphic file (type png)
 <use ./img/Lab2_1b_2k.png>
 Package pdftex.def Info: ./img/Lab2_1b_2k.png  used on input line 267.
@@ -454,12 +466,12 @@ Package pdftex.def Info: ./img/Lab2_1b_2k.png  used on input line 267.
 
 
 [9 <./img/Lab2_1a.png>]
-<./img/Lab2_1b_20k.png, id=218, 421.3341pt x 327.3831pt>
+<./img/Lab2_1b_20k.png, id=254, 421.3341pt x 327.3831pt>
 File: ./img/Lab2_1b_20k.png Graphic file (type png)
 <use ./img/Lab2_1b_20k.png>
 Package pdftex.def Info: ./img/Lab2_1b_20k.png  used on input line 273.
 (pdftex.def)             Requested size: 207.0021pt x 160.84373pt.
-<./img/Lab2_1b_200.png, id=219, 421.3341pt x 327.3831pt>
+<./img/Lab2_1b_200.png, id=255, 421.3341pt x 327.3831pt>
 File: ./img/Lab2_1b_200.png Graphic file (type png)
 <use ./img/Lab2_1b_200.png>
 Package pdftex.def Info: ./img/Lab2_1b_200.png  used on input line 279.
@@ -467,12 +479,12 @@ Package pdftex.def Info: ./img/Lab2_1b_200.png  used on input line 279.
 
 
 [10 <./img/Lab2_1b_2k.png> <./img/Lab2_1b_20k.png>]
-<./img/Lab2_1b_200k.png, id=228, 421.3341pt x 327.3831pt>
+<./img/Lab2_1b_200k.png, id=264, 421.3341pt x 327.3831pt>
 File: ./img/Lab2_1b_200k.png Graphic file (type png)
 <use ./img/Lab2_1b_200k.png>
 Package pdftex.def Info: ./img/Lab2_1b_200k.png  used on input line 285.
 (pdftex.def)             Requested size: 207.0021pt x 160.84373pt.
-<./img/Lab2_1c.png, id=229, 715.473pt x 426.393pt>
+<./img/Lab2_1c.png, id=265, 715.473pt x 426.393pt>
 File: ./img/Lab2_1c.png Graphic file (type png)
 <use ./img/Lab2_1c.png>
 Package pdftex.def Info: ./img/Lab2_1c.png  used on input line 294.
@@ -480,7 +492,7 @@ Package pdftex.def Info: ./img/Lab2_1c.png  used on input line 294.
 
 
 [11 <./img/Lab2_1b_200.png> <./img/Lab2_1b_200k.png>]
-<./img/Lab2_2a.png, id=238, 414.8298pt x 327.3831pt>
+<./img/Lab2_2a.png, id=274, 414.8298pt x 327.3831pt>
 File: ./img/Lab2_2a.png Graphic file (type png)
 <use ./img/Lab2_2a.png>
 Package pdftex.def Info: ./img/Lab2_2a.png  used on input line 306.
@@ -493,17 +505,17 @@ Overfull \hbox (6.65805pt too wide) in paragraph at lines 312--320
 
 
 [12 <./img/Lab2_1c.png> <./img/Lab2_2a.png>]
-<./img/Lab2_2b_2k.png, id=247, 421.3341pt x 327.3831pt>
+<./img/Lab2_2b_2k.png, id=283, 421.3341pt x 327.3831pt>
 File: ./img/Lab2_2b_2k.png Graphic file (type png)
 <use ./img/Lab2_2b_2k.png>
 Package pdftex.def Info: ./img/Lab2_2b_2k.png  used on input line 323.
 (pdftex.def)             Requested size: 207.0021pt x 160.84373pt.
-<./img/Lab2_2b_20k.png, id=248, 421.3341pt x 327.3831pt>
+<./img/Lab2_2b_20k.png, id=284, 421.3341pt x 327.3831pt>
 File: ./img/Lab2_2b_20k.png Graphic file (type png)
 <use ./img/Lab2_2b_20k.png>
 Package pdftex.def Info: ./img/Lab2_2b_20k.png  used on input line 329.
 (pdftex.def)             Requested size: 207.0021pt x 160.84373pt.
-<./img/Lab2_2b_200.png, id=249, 421.3341pt x 327.3831pt>
+<./img/Lab2_2b_200.png, id=285, 421.3341pt x 327.3831pt>
 File: ./img/Lab2_2b_200.png Graphic file (type png)
 <use ./img/Lab2_2b_200.png>
 Package pdftex.def Info: ./img/Lab2_2b_200.png  used on input line 335.
@@ -511,12 +523,12 @@ Package pdftex.def Info: ./img/Lab2_2b_200.png  used on input line 335.
 
 
 [13 <./img/Lab2_2b_2k.png> <./img/Lab2_2b_20k.png>]
-<./img/Lab2_2b_200k.png, id=259, 421.3341pt x 327.3831pt>
+<./img/Lab2_2b_200k.png, id=295, 421.3341pt x 327.3831pt>
 File: ./img/Lab2_2b_200k.png Graphic file (type png)
 <use ./img/Lab2_2b_200k.png>
 Package pdftex.def Info: ./img/Lab2_2b_200k.png  used on input line 341.
 (pdftex.def)             Requested size: 207.0021pt x 160.84373pt.
-<./img/Lab2_2c.png, id=260, 714.7503pt x 426.393pt>
+<./img/Lab2_2c.png, id=296, 714.7503pt x 426.393pt>
 File: ./img/Lab2_2c.png Graphic file (type png)
 <use ./img/Lab2_2c.png>
 Package pdftex.def Info: ./img/Lab2_2c.png  used on input line 351.
@@ -527,7 +539,63 @@ Package pdftex.def Info: ./img/Lab2_2c.png  used on input line 351.
 
 [15 <./img/Lab2_2c.png>]
 
-[16] (Lab1.aux)
+[16]
+<./img/Lab3_1.png, id=318, 614.295pt x 398.9304pt>
+File: ./img/Lab3_1.png Graphic file (type png)
+<use ./img/Lab3_1.png>
+Package pdftex.def Info: ./img/Lab3_1.png  used on input line 472.
+(pdftex.def)             Requested size: 310.4979pt x 201.64392pt.
+
+
+[17 <./img/Lab3_1.png>]
+Overfull \hbox (7.13066pt too wide) in paragraph at lines 494--496
+\OT1/cmr/m/n/10 Since $\OML/cmm/m/it/10 R[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 R[]$\OT1/cmr/m/n/10 , the load from the first filter will not interfere with the performance
+ []
+
+
+Overfull \hbox (20.00066pt too wide) in paragraph at lines 508--509
+[]\OT1/cmr/m/n/10 Unfortunately, no data was collected from the oscilloscope during this experiment.
+ []
+
+
+
+[18]
+<./img/Lab3_4_1.png, id=336, 616.4631pt x 395.3169pt>
+File: ./img/Lab3_4_1.png Graphic file (type png)
+<use ./img/Lab3_4_1.png>
+Package pdftex.def Info: ./img/Lab3_4_1.png  used on input line 542.
+(pdftex.def)             Requested size: 310.4979pt x 199.1177pt.
+<./img/Lab3_4_2.png, id=337, 625.8582pt x 395.3169pt>
+File: ./img/Lab3_4_2.png Graphic file (type png)
+<use ./img/Lab3_4_2.png>
+Package pdftex.def Info: ./img/Lab3_4_2.png  used on input line 549.
+(pdftex.def)             Requested size: 310.4979pt x 196.12581pt.
+<./img/Lab3_4_3.png, id=338, 616.4631pt x 395.3169pt>
+File: ./img/Lab3_4_3.png Graphic file (type png)
+<use ./img/Lab3_4_3.png>
+Package pdftex.def Info: ./img/Lab3_4_3.png  used on input line 556.
+(pdftex.def)             Requested size: 310.4979pt x 199.1177pt.
+
+
+[19 <./img/Lab3_4_1.png> <./img/Lab3_4_2.png>]
+<./img/Lab3_4_4.png, id=348, 616.4631pt x 395.3169pt>
+File: ./img/Lab3_4_4.png Graphic file (type png)
+<use ./img/Lab3_4_4.png>
+Package pdftex.def Info: ./img/Lab3_4_4.png  used on input line 563.
+(pdftex.def)             Requested size: 310.4979pt x 199.1177pt.
+
+
+[20 <./img/Lab3_4_3.png> <./img/Lab3_4_4.png>]
+
+[21]
+<./img/Lab3_6.png, id=366, 617.9085pt x 395.3169pt>
+File: ./img/Lab3_6.png Graphic file (type png)
+<use ./img/Lab3_6.png>
+Package pdftex.def Info: ./img/Lab3_6.png  used on input line 643.
+(pdftex.def)             Requested size: 310.4979pt x 198.64117pt.
+
+
+[22 <./img/Lab3_6.png>] (Lab1.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -537,20 +605,20 @@ L3 programming layer <2024-08-30>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Lab1.out' has not changed.
-(rerunfilecheck)             Checksum: EF4CCE9CA897DC4508520654585BC1DE;5912.
+(rerunfilecheck)             Checksum: 311B300694FD47130A042C689DAA4385;6942.
  ) 
 Here is how much of TeX's memory you used:
- 14654 strings out of 475833
- 298313 string characters out of 2775517
- 640246 words of memory out of 3000000
- 37088 multiletter control sequences out of 15000+600000
- 563452 words of font info for 55 fonts, out of 8000000 for 9000
+ 14742 strings out of 475833
+ 299929 string characters out of 2775517
+ 641317 words of memory out of 3000000
+ 37144 multiletter control sequences out of 15000+600000
+ 563787 words of font info for 56 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,13n,80p,440b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
-</Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Lab1.pdf (16 pages, 1178225 bytes).
+ 75i,13n,80p,440b,964s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Lab1.pdf (22 pages, 1572553 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 463 words of extra memory for PDF output out of 10000 (max. 10000000)
 

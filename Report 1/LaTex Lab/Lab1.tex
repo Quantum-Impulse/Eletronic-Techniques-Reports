@@ -451,4 +451,201 @@ The phase shift is then:
     \section*{Lab 3}
 \end{center}
 
+\section{Introduction}
+
+\section{Methods / Notes}
+
+\section{Results}
+
+\subsection{ Question 1 }
+
+\begin{itemize}
+    \item \( C_1 = 3.1 \, \text{nF} \)
+    \item \( R_1 = 1.939 \, \text{k}\Omega \)
+    \item \( R_2 = 5.1 \, \text{k}\Omega \)
+    \item \( R_3 = 9.96 \, \text{k}\Omega \)
+    \item \( C_2 = 9.67 \, \text{nF} \)
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab3_1.png}  % Replace with actual plot path
+    \caption{Gain Vs Frequency for Circuit 1}
+\end{figure}
+
+
+\subsection{ Question 2}
+
+\subsection*{First Filter (Low-Pass Filter from Lab 2)}
+\[
+\frac{V_{\text{intermediate}}}{V_{\text{in}}} = \frac{j \omega R_1 C_1}{1 + j \omega R_1 C_1}
+\]
+This represents the transfer function for the first filter (a low-pass filter from Lab 2).
+
+\subsection*{Second Filter (Low-Pass Filter from Lab 2)}
+\[
+\frac{V_{\text{out}}}{V_{\text{intermediate}}} = \frac{1}{1 + j \omega R_2 C_2}
+\]
+This represents the transfer function for the second filter (another low-pass filter from Lab 2).
+
+\subsection*{Total Gain}
+\[
+\text{Total Gain} = \frac{V_{\text{out}}}{V_{\text{in}}} = \frac{j \omega R_1 C_1}{1 + j \omega R_1 C_1} \times \frac{1}{1 + j \omega R_2 C_2}
+\]
+Since \(R_2 \gg R_1\), the load from the first filter will not interfere with the performance of the second filter.
+
+\subsection{ Question 3}
+
+\subsection*{LRC Bandpass Filter}
+\[
+R = 218.4 \, \Omega, \quad C = 470 \, \text{nF}, \quad L = 20 \, \text{mH}
+\]
+The resonant frequency is given by:
+\[
+\omega_0 = \frac{1}{\sqrt{LC}} = 0.01 \, \text{Hz}
+\]
+
+Unfortunately, no data was collected from the oscilloscope during this experiment. I hypothesize that the circuit could be short-circuiting due to the capacitor not being charged, thereby driving no current.
+
+The input voltage is related to the voltages across the resistor and inductor-capacitor pair by:
+\[
+V_{\text{in}} = V_R + V_{LC}
+\]
+Thus, the voltage across the resistor is:
+\[
+V_R = V_{LC} - V_{\text{in}}
+\]
+We can use these voltages to find \(V_R\) as a function of frequency by plotting.
+
+\subsection{ Question 4}
+
+\subsection*{LRC Bandpass Filter (Second Circuit)}
+The values used for this circuit are:
+\[
+R = 102 \, \Omega + 100 \, \Omega = 202 \, \Omega, \quad C = 8.18 \, \mu\text{F}, \quad L = 1 \times 10^{-3} \, \text{H}
+\]
+The resonant frequency is calculated as:
+\[
+f_{\text{resonance}} = 18 \, \text{kHz}
+\]
+Here are the measured values for different frequencies:
+
+\begin{itemize}
+    \item At \(f = 1.8 \, \text{kHz}\), \(V_{\text{in}} = 10.2 \, \text{V}\), \(V_{\text{out}} = 8.8 \, \text{V}\)
+    \item At \(f = 260 \, \text{Hz}\), \(V_{\text{in}} = 10.45 \, \text{V}\), \(V_{\text{out}} = 8 \, \text{V}\)
+    \item At \(f = 32.5 \, \text{kHz}\), \(V_{\text{in}} = 10.25 \, \text{V}\), \(V_{\text{out}} = 7.25 \, \text{V}\)
+    \item At \(f = 115 \, \text{kHz}\), \(V_{\text{in}} = 10.25 \, \text{V}\), \(V_{\text{out}} = 3.45 \, \text{V}\)
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab3_4_1.png}  % Replace with actual plot path
+    \caption{}
+    \label{fig:graph1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab3_4_2.png}  % Replace with actual plot path
+    \caption{}
+    \label{fig:graph1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab3_4_3.png}  % Replace with actual plot path
+    \caption{}
+    \label{fig:graph1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab3_4_4.png}  % Replace with actual plot path
+    \caption{}
+    \label{fig:graph1}
+\end{figure}
+
+\subsection{ Question 5}
+
+\begin{itemize}
+    \item \( R = 500 \, \Omega, \quad 100 \, \Omega \)
+    \item \( C = 8.16 \, \mu\text{F} \)
+    \item \( L = 0.001 \, \text{H} \)
+\end{itemize}
+
+The resonant frequency is calculated using:
+\[
+\omega_0 = \frac{1}{\sqrt{LC}} = 1.76 \, \text{kHz}
+\]
+This resonant frequency applies to both \(R = 100 \, \Omega\) and \(R = 500 \, \Omega\).
+
+\subsection*{Note:}
+If you want a sharper resonance, you need higher resistance.
+\subsection{ Question 6}
+
+\begin{itemize}
+    \item \( L = 0.001 \, \text{H} \)
+    \item \( C = 8.18 \, \mu\text{F} \)
+    \item \( R = 500 \, \Omega \)
+\end{itemize}
+
+\subsection*{Impedances}
+The impedance of the capacitor is:
+\[
+Z_C = \frac{1}{j\omega C}
+\]
+The impedance of the inductor is:
+\[
+Z_L = j\omega L
+\]
+The total series impedance is:
+\[
+\frac{1}{Z_{\text{box}}} = \frac{1}{Z_C} + \frac{1}{Z_L}
+\]
+Simplifying this:
+\[
+Z_{\text{box}} = \frac{-j \omega L}{1 - \omega^2 LC}
+\]
+
+\subsection*{Total Impedance}
+The total impedance of the circuit is:
+\[
+Z_{\text{total}} = R + \frac{-j \omega L}{1 - \omega^2 LC}
+\]
+
+\subsection*{Transfer Function}
+The transfer function of the circuit is:
+\[
+\frac{V_{\text{out}}}{V_{\text{in}}} = \frac{Z_{\text{box}}}{Z_{\text{total}}} = \frac{-j \omega L / (1 - \omega^2 LC)}{R + \frac{-j \omega L}{1 - \omega^2 LC}}
+\]
+This simplifies to:
+\[
+\frac{V_{\text{out}}}{V_{\text{in}}} = \frac{\omega L}{\omega^2 RLC - \omega L + R}
+\]
+
+\subsection*{Quality Factor \(Q\)}
+The quality factor of the circuit is given by:
+\[
+Q = \frac{\omega_0 L}{R}
+\]
+Substituting the values:
+\[
+Q = \frac{(1.76 \times 10^3) \times 10^{-3}}{500 \, \Omega} = 3.52
+\]
+
+The angular frequency at resonance is:
+\[
+\omega_0 = \frac{1}{\sqrt{LC}} = 1.76 \times 10^3 \, \text{rad/s}
+\]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab3_6.png}  % Replace with actual plot path
+    \caption{Caption for the graph if applicable.}
+    \label{fig:graph1}
+\end{figure}
+
+
+
+
 \end{document}
