@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  30 SEP 2024 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  30 SEP 2024 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,28 +342,241 @@ Package hyperref Info: Link coloring OFF on input line 13.
 \@outlinefile=\write3
 \openout3 = `Report2.out'.
 
+<./img/Lab4_1.png, id=3, 943.525pt x 471.7625pt>
+File: ./img/Lab4_1.png Graphic file (type png)
+<use ./img/Lab4_1.png>
+Package pdftex.def Info: ./img/Lab4_1.png  used on input line 46.
+(pdftex.def)             Requested size: 310.4979pt x 155.25018pt.
 
 
-/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:23: LaTeX Error: Something's wrong--perhaps a missing \item.
+[1
+
+{/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:52: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \end{center}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.52 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:53: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./img/other/Lab4_Circuits.png, id=25, 1043.9pt x 627.34375pt>
+File: ./img/other/Lab4_Circuits.png Graphic file (type png)
+<use ./img/other/Lab4_Circuits.png>
+Package pdftex.def Info: ./img/other/Lab4_Circuits.png  used on input line 61.
+(pdftex.def)             Requested size: 310.4979pt x 186.59639pt.
+<./img/Lab4_2_1.png, id=26, 803.0pt x 481.8pt>
+File: ./img/Lab4_2_1.png Graphic file (type png)
+<use ./img/Lab4_2_1.png>
+Package pdftex.def Info: ./img/Lab4_2_1.png  used on input line 68.
+(pdftex.def)             Requested size: 310.4979pt x 186.29857pt.
+
+
+[2 <./img/Lab4_1.png> <./img/other/Lab4_Circuits.png>]
+Overfull \hbox (5.27846pt too wide) in paragraph at lines 80--83
+\OT1/cmr/m/n/10 (Vin) is sinusoidal, and the blue waveform (Vout) shows clipping at approximately
+ []
+
+<./img/Lab4_2_2.png, id=35, 803.0pt x 481.8pt>
+File: ./img/Lab4_2_2.png Graphic file (type png)
+<use ./img/Lab4_2_2.png>
+Package pdftex.def Info: ./img/Lab4_2_2.png  used on input line 86.
+(pdftex.def)             Requested size: 310.4979pt x 186.29857pt.
+
+
+[3 <./img/Lab4_2_1.png> <./img/Lab4_2_2.png>]
+<./img/Lab4_2_3.png, id=42, 803.0pt x 481.8pt>
+File: ./img/Lab4_2_3.png Graphic file (type png)
+<use ./img/Lab4_2_3.png>
+Package pdftex.def Info: ./img/Lab4_2_3.png  used on input line 100.
+(pdftex.def)             Requested size: 310.4979pt x 186.29857pt.
+<./img/Lab4_2_4.png, id=43, 803.0pt x 481.8pt>
+File: ./img/Lab4_2_4.png Graphic file (type png)
+<use ./img/Lab4_2_4.png>
+Package pdftex.def Info: ./img/Lab4_2_4.png  used on input line 116.
+(pdftex.def)             Requested size: 310.4979pt x 186.29857pt.
+
+
+[4 <./img/Lab4_2_3.png>]
+Overfull \hbox (3.83395pt too wide) in paragraph at lines 123--125
+\OT1/cmr/m/n/10 of Vin, but it may conduct slightly during negative cycles if the reverse breakdown
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
+
+ []
+
+<./img/other/Lab4_3.png, id=49, 440.64626pt x 234.8775pt>
+File: ./img/other/Lab4_3.png Graphic file (type png)
+<use ./img/other/Lab4_3.png>
+Package pdftex.def Info: ./img/other/Lab4_3.png  used on input line 134.
+(pdftex.def)             Requested size: 310.4979pt x 165.50981pt.
+
+
+[5 <./img/Lab4_2_4.png>]
+<./img/Lab4_3_1v.png, id=55, 803.0pt x 481.8pt>
+File: ./img/Lab4_3_1v.png Graphic file (type png)
+<use ./img/Lab4_3_1v.png>
+Package pdftex.def Info: ./img/Lab4_3_1v.png  used on input line 141.
+(pdftex.def)             Requested size: 310.4979pt x 186.29857pt.
+<./img/Lab4_3_3.5v.png, id=56, 803.0pt x 481.8pt>
+File: ./img/Lab4_3_3.5v.png Graphic file (type png)
+<use ./img/Lab4_3_3.5v.png>
+Package pdftex.def Info: ./img/Lab4_3_3.5v.png  used on input line 148.
+(pdftex.def)             Requested size: 310.4979pt x 186.29857pt.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:152: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:153: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 
-[1
+[6 <./img/other/Lab4_3.png> <./img/Lab4_3_1v.png>]
+<./img/other/Lab4_4.png, id=64, 467.7475pt x 221.82875pt>
+File: ./img/other/Lab4_4.png Graphic file (type png)
+<use ./img/other/Lab4_4.png>
+Package pdftex.def Info: ./img/other/Lab4_4.png  used on input line 158.
+(pdftex.def)             Requested size: 310.4979pt x 147.26039pt.
+<./img/Lab4_4.png, id=65, 803.0pt x 481.8pt>
+File: ./img/Lab4_4.png Graphic file (type png)
+<use ./img/Lab4_4.png>
+Package pdftex.def Info: ./img/Lab4_4.png  used on input line 165.
+(pdftex.def)             Requested size: 310.4979pt x 186.29857pt.
 
-{/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] (Report2.aux)
+
+[7 <./img/Lab4_3_3.5v.png> <./img/other/Lab4_4.png>]
+<./img/other/Lab4_5.png, id=74, 524.96124pt x 246.9225pt>
+File: ./img/other/Lab4_5.png Graphic file (type png)
+<use ./img/other/Lab4_5.png>
+Package pdftex.def Info: ./img/other/Lab4_5.png  used on input line 184.
+(pdftex.def)             Requested size: 310.4979pt x 146.05223pt.
+
+
+[8 <./img/Lab4_4.png> <./img/other/Lab4_5.png>]
+<./img/Lab4_5.png, id=82, 714.7503pt x 426.393pt>
+File: ./img/Lab4_5.png Graphic file (type png)
+<use ./img/Lab4_5.png>
+Package pdftex.def Info: ./img/Lab4_5.png  used on input line 226.
+(pdftex.def)             Requested size: 310.4979pt x 185.23872pt.
+<./img/other/Lab4_6.png, id=83, 438.63875pt x 317.185pt>
+File: ./img/other/Lab4_6.png Graphic file (type png)
+<use ./img/other/Lab4_6.png>
+Package pdftex.def Info: ./img/other/Lab4_6.png  used on input line 236.
+(pdftex.def)             Requested size: 310.4979pt x 224.53017pt.
+
+
+[9 <./img/Lab4_5.png>]
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:249: You can't use `macro parameter character #' in vertical mode.
+l.249 #
+       ## Measured I-V Data:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:249: You can't use `macro parameter character #' in vertical mode.
+l.249 ##
+        # Measured I-V Data:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:249: You can't use `macro parameter character #' in vertical mode.
+l.249 ###
+          Measured I-V Data:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:273: You can't use `macro parameter character #' in vertical mode.
+l.273 #
+       ## Maximum Current:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:273: You can't use `macro parameter character #' in vertical mode.
+l.273 ##
+        # Maximum Current:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:273: You can't use `macro parameter character #' in vertical mode.
+l.273 ###
+          Maximum Current:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+<./img/Lab4_6.png, id=92, 714.7503pt x 426.393pt>
+File: ./img/Lab4_6.png Graphic file (type png)
+<use ./img/Lab4_6.png>
+Package pdftex.def Info: ./img/Lab4_6.png  used on input line 278.
+(pdftex.def)             Requested size: 310.4979pt x 185.23872pt.
+
+
+[10 <./img/other/Lab4_6.png>]
+
+[11 <./img/Lab4_6.png>] (Report2.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `Report2.out' has changed.
@@ -372,20 +585,20 @@ Package rerunfilecheck Warning: File `Report2.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Report2.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             After:  C3E5875BA0049176A7EEEFAF41C8C54F;116.
  ) 
 Here is how much of TeX's memory you used:
- 14340 strings out of 475833
- 291509 string characters out of 2775517
- 634318 words of memory out of 3000000
- 36853 multiletter control sequences out of 15000+600000
- 562383 words of font info for 51 fonts, out of 8000000 for 9000
+ 14513 strings out of 475833
+ 295284 string characters out of 2775517
+ 639318 words of memory out of 3000000
+ 36997 multiletter control sequences out of 15000+600000
+ 563452 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,6n,80p,351b,894s stack positions out of 5000i,500n,10000p,200000b,80000s
-</Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Report2.pdf (1 page, 43706 bytes).
+ 75i,10n,80p,351b,898s stack positions out of 5000i,500n,10000p,200000b,80000s
+</Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Report2.pdf (11 pages, 859047 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

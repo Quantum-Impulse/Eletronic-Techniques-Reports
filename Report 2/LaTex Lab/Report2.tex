@@ -13,23 +13,272 @@
 \begin{document}
 \maketitle
 
-\begin{center}
-\section*{Lab 4}
-\end{center}
+\section*{Lab 4: Diodes}
+
+\subsection*{Important Concepts}
+- \textbf{Diode}: A semiconductor device that allows current to flow in one direction only. It has two terminals: an anode (+) and a cathode (-).
+\newline
+- \textbf{Voltage Divider}: A circuit used to create a voltage less than or equal to the input voltage.
+\newline
+- \textbf{Diode Forward Voltage Drop}: Typically around 0.7V for silicon diodes.
+\newline
+- \textbf{Zener Diode}: Designed to operate in reverse bias, with a specified breakdown voltage.
+
+\subsection*{Equations}
+- \textbf{Diode Equation}:
+\[
+I = I_s \left( e^{\frac{V}{nV_T}} - 1 \right)
+\]
+- \textbf{Voltage Divider}:
+\[
+V_{out} = V_{in} \cdot \frac{R_2}{R_1 + R_2}
+\]
+- \textbf{Ripple Voltage}:
+\[
+V_{ripple} = \frac{I_{load}}{fC}
+\]
+
+\subsection{FYR Questions}
+1. \textbf{Diode Identification and Voltage Drop:}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_1.png}
+    \caption{Drawing of Diode}
+    \label{fig:graph1}
+\end{figure}
 
 
-\begin{center}
-    \section*{Lab 5}
-\end{center}
+\newline
+\newline
+
+2. \textbf{Diode Circuits: }The diode behaves like a switch; it is on when forward-biased (Vin > 0.7V), and off otherwise.
+
+The Yellow line represents the Vin, the Blue line represents the Vout.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/other/Lab4_Circuits.png}
+    \caption{Circuits For This Question}
+    \label{fig:graph2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_2_1.png}
+    \caption{Circuit 1 Results}
+    \label{fig:graph3}
+\end{figure}
+
+\textbf{Description:} A forward-biased diode in series with a resistor.
+
+\textbf{Expected Behavior:} The diode will conduct (be "on") when the input voltage 
+Vin is greater than the forward voltage of the diode 
+(about 0.7V for a silicon diode). When the input drops below 0.7V, the diode 
+will be off, and Vout will be near zero.
+
+\textbf{Oscilloscope Data:} In the graph, you can see that the yellow waveform 
+(Vin) is sinusoidal, and the blue waveform (Vout) shows clipping at 
+approximately 0.7V, confirming that the diode only conducts when Vin>0.7V.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_2_2.png}
+    \caption{Circuit 2 Results}
+    \label{fig:graph4}
+\end{figure}
+
+\textbf{Description:} A reverse-biased diode in series with a resistor.
+
+\textbf{Expected Behavior:} In this case, the diode will not conduct under normal forward voltage conditions, as it is reverse-biased. Hence, 
+Vout will be almost zero throughout the entire cycle of = Vin.
+
+\textbf{Oscilloscope Data:} The second graph shows that the blue waveform (Vout) is almost flat, indicating the diode is not conducting, as expected for a reverse-biased diode.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_2_3.png}
+    \caption{Circuit 3 Results}
+    \label{fig:graph5}
+\end{figure}
+
+\textbf{Description:} A forward-biased diode, with the diode grounded.
+
+\textbf{Expected Behavior:} Similar to Circuit 1, but this time, the diode is connected to the ground. The output 
+Vout will be clamped at 0.7V during the positive cycle of 
+Vin, and the diode will conduct when > 0.7V. Vin>0.7V. 
+
+\textbf{Oscilloscope Data:} In the third graph, the blue waveform again shows clipping at around 0.7V, indicating that the diode is conducting when 
+Vin>0.7V, and is off otherwise.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_2_4.png}
+    \caption{Circuit 4 Results}
+    \label{fig:graph6}
+\end{figure}
+
+\textbf{Description:} A reverse-biased diode, similar to Circuit 2 but with reversed polarity.
+
+\textbf{Expected Behavior:} The diode will not conduct during the positive cycles of 
+Vin, but it may conduct slightly during negative cycles if the reverse breakdown voltage is reached. However, for most practical situations, the output will be near zero.
+
+\textbf{Oscilloscope Data:} The fourth graph shows minimal activity on the blue waveform (Vout), confirming that the diode remains off, as expected for a reverse-biased diode.s
+\newline
+\newline
+
+3.\textbf{Voltage Clamp Circuit:} Adjusting the +1V shifted the output. The diode was **on** when Vin exceeded the forward voltage and bias.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/other/Lab4_3.png}
+    \caption{Circuit For Question 3}
+    \label{fig:graph7}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_3_1v.png}
+    \caption{Circuit with +1V Shift. We can see that on Vout we are seeing a 1V shift will keeping the negative cycle.} 
+    \label{fig:graph8}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_3_3.5v.png}
+    \caption{Circuit with 3.5V Shift. We can see that on Vout we are seeing a 3.5V shift will keeping the negative cycle.}
+    \label{fig:graph9}
+\end{figure}
+\newline
+\newline
+
+4.\textbf{Two Diode Circuit} Sketched regions where D1 and D2 were on and off, showing rectification.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/other/Lab4_4.png}
+    \caption{Circuit for Question 4}
+    \label{fig:graph10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_4.png}
+    \caption{Circuit Results}
+    \label{fig:graph11}
+\end{figure}
+
+Explanation of Diode Behavior:
+D1 (Forward Biased): When the input signal is positive, D1 conducts and the output voltage is clamped near 0.7V.
+D2 (Forward Biased): When the input signal is negative, D2 conducts and the output is clamped near -0.7V.
+
+Regions of On and Off States:
+D1 is on during the positive half-cycle of the input waveform when Vin $\ge$ 0.7V.
+D2 is on during the negative half-cycle of the input waveform when Vin$\le$-0.7V.
+During these times, the output is clamped to the diode's forward voltage, limiting the maximum and minimum values of 
+Vout.
+
+5.\textbf{Ripple and DC} The plot of \( VDC/Vripple \) versus R indicated a smoother rectification with higher resistance.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/other/Lab4_5.png}
+    \caption{Circuit For Question 5}
+    \label{fig:graph12}
+\end{figure}
+
+\section*{Question 5}
+
+We used a capacitor with a capacitance of \(C = 0.94 \, \mu F\) and resistances of \( R_1 = 106.4 \, k\Omega \) and \( R_2 = 48.7 \, k\Omega \). The circuit was set at a frequency of 1.5 kHz.
+
+The ripple voltage \( V_{ripple} \) is defined as:
+
+\[
+V_{ripple} = V_{\text{max}} - V_{\text{min}}
+\]
+
+The DC voltage \( V_{DC} \) is given by:
+
+\[
+V_{DC} = \frac{V_{\text{max}} + V_{\text{min}}}{2}
+\]
+
+We recorded the following values for different resistances:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Filtering Resistance (R) & \( V_{ripple} \) (V) & \( V_{DC} \) (V) \\
+\hline
+100 k\(\Omega\) & 0.6 & 4.44 \\
+50 k\(\Omega\) & 0.4 & 4.76 \\
+10 k\(\Omega\) & 0.2 & 4.86 \\
+5 k\(\Omega\)  & 0.8 & 4.2  \\
+200 \(\Omega\) & 3.4 & 1.51 \\
+500 \(\Omega\) & 3.0 & 2.32 \\
+\hline
+\end{tabular}
+\caption{Measured ripple voltage \( V_{ripple} \) and DC voltage \( V_{DC} \) for different filtering resistances.}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_5.png}
+    \caption{Graph of \( VDC/Vripple \) versus R}
+    \label{fig:graph13}
+\end{figure}
 
 
+6.\textbf{I-V Curve of Zener Diode}: The Zener diode conducted in reverse once the 5V breakdown voltage was reached.
 
-\begin{center}
-    \section*{Lab 6}
-\end{center}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/other/Lab4_6.png}
+    \caption{Graph of \( VDC/Vripple \) versus R}
+    \label{fig:graph14}
+\end{figure}
 
+We used a Zener diode with a forward voltage of 0.702V. The resistor was set at \( R = 47.6 \, k\Omega \). The goal was to limit the current to 50 mA.
 
+From Ohm's law:
 
+\[
+R = \frac{V}{I} = \frac{5 \, \text{V}}{0.05 \, \text{A}} = 100 \, \Omega
+\]
+
+### Measured I-V Data:
+The following table presents the measured current for different voltage values across the Zener diode.
+
+\[
+\begin{array}{|c|c|}
+\hline
+V \, (\text{Volts}) & I \, (\text{Amperes}) \\
+\hline
+1.0 & 2.6 \, \text{mA} \\
+2.0 & 9.8 \, \text{mA} \\
+3.0 & 19.6 \, \text{mA} \\
+4.0 & 28.6 \, \text{mA} \\
+5.6 & 36.1 \, \text{mA} \\
+6.0 & 46.5 \, \text{mA} \\
+7.0 & 55.6 \, \text{mA} \\
+8.0 & 63.5 \, \text{mA} \\
+9.0 & 73.1 \, \text{mA} \\
+10.0 & 82.1 \, \text{mA} \\
+15.0 & 125.1 \, \text{mA} \\
+19.0 & 145.1 \, \text{mA} \\
+\hline
+\end{array}
+\]
+
+### Maximum Current:
+The maximum current measured was 145.1 mA at 19V.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab4_6.png}
+    \caption{Graph of \( VDC/Vripple \) versus R}
+    \label{fig:graph15} 
+\end{figure}
 
 
 \end{document}
