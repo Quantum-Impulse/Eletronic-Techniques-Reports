@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  30 SEP 2024 18:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  8 OCT 2024 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,7 +569,328 @@ Package pdftex.def Info: ./img/Lab4_6.png  used on input line 278.
 
 [10 <./img/other/Lab4_6.png>]
 
-[11 <./img/Lab4_6.png>] (Report2.aux)
+[11 <./img/Lab4_6.png>]
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:321: You can't use `macro parameter character #' in vertical mode.
+l.321 #
+       ## Explanation:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:321: You can't use `macro parameter character #' in vertical mode.
+l.321 ##
+        # Explanation:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:321: You can't use `macro parameter character #' in vertical mode.
+l.321 ###
+          Explanation:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--332
+
+ []
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:338: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.338 #
+       ## Case A: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:338: You can't use `macro parameter character #' in horizontal mode.
+l.338 ##
+        # Case A: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:338: You can't use `macro parameter character #' in horizontal mode.
+l.338 ###
+          Case A: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--340
+
+ []
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:347: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.347 T
+       he base current \( I_B \) was set to 20 \(\mu A\), and we varied \( V...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[12]
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:369: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.369 #
+       ## Case B: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:369: You can't use `macro parameter character #' in horizontal mode.
+l.369 ##
+        # Case B: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:369: You can't use `macro parameter character #' in horizontal mode.
+l.369 ###
+          Case B: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
+
+ []
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:399: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.399 #
+       ## Analysis:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:399: You can't use `macro parameter character #' in horizontal mode.
+l.399 ##
+        # Analysis:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:399: You can't use `macro parameter character #' in horizontal mode.
+l.399 ###
+          Analysis:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:409: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.409 #
+       ## Graph:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:409: You can't use `macro parameter character #' in horizontal mode.
+l.409 ##
+        # Graph:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:409: You can't use `macro parameter character #' in horizontal mode.
+l.409 ###
+          Graph:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+<./img/Lab5_2Plot.png, id=114, 714.7503pt x 426.393pt>
+File: ./img/Lab5_2Plot.png Graphic file (type png)
+<use ./img/Lab5_2Plot.png>
+Package pdftex.def Info: ./img/Lab5_2Plot.png  used on input line 412.
+(pdftex.def)             Requested size: 310.4979pt x 185.23872pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--415
+
+ []
+
+
+
+[13]
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:416: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.416 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:417: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.417 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:421: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.421 #
+       ## Case A: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:421: You can't use `macro parameter character #' in horizontal mode.
+l.421 ##
+        # Case A: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:421: You can't use `macro parameter character #' in horizontal mode.
+l.421 ###
+          Case A: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--424
+
+ []
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:430: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.430 #
+       ## Case B: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:430: You can't use `macro parameter character #' in horizontal mode.
+l.430 ##
+        # Case B: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:430: You can't use `macro parameter character #' in horizontal mode.
+l.430 ###
+          Case B: \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--433
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--433
+
+ []
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:439: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.439 #
+       ## Conclusion:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:439: You can't use `macro parameter character #' in horizontal mode.
+l.439 ##
+        # Conclusion:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:439: You can't use `macro parameter character #' in horizontal mode.
+l.439 ###
+          Conclusion:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+
+[14 <./img/Lab5_2Plot.png>]
+
+[15] (Report2.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -588,17 +909,17 @@ Package rerunfilecheck Info: Checksums for `Report2.out':
 (rerunfilecheck)             After:  C3E5875BA0049176A7EEEFAF41C8C54F;116.
  ) 
 Here is how much of TeX's memory you used:
- 14513 strings out of 475833
- 295284 string characters out of 2775517
- 639318 words of memory out of 3000000
- 36997 multiletter control sequences out of 15000+600000
- 563452 words of font info for 55 fonts, out of 8000000 for 9000
+ 14534 strings out of 475833
+ 295655 string characters out of 2775517
+ 646318 words of memory out of 3000000
+ 37008 multiletter control sequences out of 15000+600000
+ 563787 words of font info for 56 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,10n,80p,351b,898s stack positions out of 5000i,500n,10000p,200000b,80000s
-</Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Report2.pdf (11 pages, 859047 bytes).
+ 75i,10n,80p,481b,921s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Report2.pdf (15 pages, 923838 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

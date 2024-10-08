@@ -281,4 +281,179 @@ The maximum current measured was 145.1 mA at 19V.
 \end{figure}
 
 
+\section*{Lab 5: BPJ Transistors}
+
+\subsection*{Important Concepts}
+- \textbf{Bipolar Junction Transistor (BJT)}: A type of transistor that uses both electron and hole charge carriers.
+- \textbf{NPN and PNP Transistors}: These are two types of BJTs. In NPN, current flows from the collector to the emitter when the base is forward biased. In PNP, the current flows in the opposite direction.
+- \textbf{Current Gain (\(\beta\))}: Defined as the ratio of the collector current (\(I_C\)) to the base current (\(I_B\)).
+  \[
+  \beta = \frac{I_C}{I_B}
+  \]
+- \textbf{Saturation Voltage (\(V_{CE(sat)}\))}: The minimum collector-emitter voltage where the transistor is still in the active mode.
+
+\subsection*{Equations}
+- \textbf{Collector Current}:
+  \[
+  I_C = \beta I_B
+  \]
+- \textbf{Saturation Voltage}:
+  \[
+  V_{CE(sat)} \approx 0.2 \, \text{V}
+  \]
+- \textbf{Transistor Current Relations}:
+  \[
+  I_E = I_C + I_B
+  \]
+  where \(I_E\) is the emitter current.
+  
+\subsection*{FYR Questions}
+
+1. \textbf{Transistor Diode Drops}:
+We measured the diode drops for different transistors using the diode setting on a multimeter. Below are the measured forward voltage drops for each transistor:
+
+\begin{itemize}
+    \item \textbf{3904 (PNP)}: 0.697 V drop
+    \item \textbf{3906 (NPN)}: 0.700 V drop
+    \item \textbf{2N2222 (PNP)}: 0.652 V drop
+\end{itemize}
+
+### Explanation:
+The measured voltage drops correspond to the forward voltage required to turn on the diode within the transistor, which is typically between 0.6V and 0.7V for silicon-based devices. Here's an explanation for each:
+\\ \\
+
+- \textbf{PNP Transistors (3904 and 2N2222)}: The forward voltage drop for these PNP transistors is approximately 0.697V and 0.652V respectively. This value is close to the typical forward voltage for silicon-based diodes (~0.7V). The slightly lower value for the 2N2222 may be due to manufacturing variations or slight differences in the materials used.
+  
+- \textbf{NPN Transistor (3906)}: The NPN transistor shows a forward voltage drop of 0.700V, which aligns well with the typical forward voltage for silicon diodes. This is the voltage required to forward bias the base-emitter junction of the transistor.
+\\ \\
+
+These small differences in voltage drop can be attributed to the variations in the semiconductor materials or the specific doping levels used in each transistor. However, all values fall within the expected range for silicon-based BJTs.
+ \\ \\ 
+
+ 
+2. \textbf{Transistor Circuit Measurements}:
+
+In this question, we analyzed two cases with different base currents. Below are the measured results for both Case A and Case B.
+\\ \\ 
+### Case A: \\ 
+For Case A, we set the following parameters:
+\begin{itemize}
+    \item \( R_B = 200 \, k\Omega \)
+    \item \( R_C = 2 \, k\Omega \)
+    \item \( V_{CC} = 10 \, V \)
+    \item \( I_B = 20 \, \mu A \)
+\end{itemize}
+\\
+The base current \( I_B \) was set to 20 \(\mu A\), and we varied \( V_{CC} \) to measure the corresponding collector current \( I_C \) and the collector-emitter voltage \( V_{CE} \). The results are shown in the table below:
+
+\[
+\begin{array}{|c|c|c|}
+\hline
+V_{CC} \, (\text{V}) & I_C \, (\mu A) & V_{CE} \, (\text{mV}) \\
+\hline
+10.0 & 1.0 & -915 \\
+9.0  & 0.9 & -805 \\
+8.0  & 0.8 & -720 \\
+6.8  & 0.7 & -625 \\
+6.0  & 0.7 & -563 \\
+5.0  & 0.6 & -494 \\
+4.0  & 0.5 & -384 \\
+3.5  & 0.5 & -36 \\
+1.5  & 0.3 & -28 \\
+1.0  & 0.2 & -25 \\
+0.0  & 0.1 & -22.8 \\
+\hline
+\end{array}
+\]
+\\ \\ 
+### Case B: \\ 
+For Case B, we set the following parameters:
+\begin{itemize}
+    \item \( R_B = 100 \, \Omega \)
+    \item \( R_C = 2 \, k\Omega \)
+    \item \( V_{CC} = 10 \, V \)
+    \item \( I_B = 40 \, \mu A \)
+\end{itemize}
+
+The base current \( I_B \) was set to 40 \(\mu A\), and we varied \( V_{CC} \) to measure the corresponding collector current \( I_C \) and the collector-emitter voltage \( V_{CE} \). The results are shown in the table below:
+
+\[
+\begin{array}{|c|c|c|}
+\hline
+V_{CC} \, (\text{V}) & I_C \, (\mu A) & V_{CE} \, (\text{mV}) \\
+\hline
+9.7  & 1.0 & -957 \\
+8.5  & 0.9 & -834 \\
+7.4  & 0.8 & -721 \\
+6.0  & 0.6 & -586 \\
+5.0  & 0.6 & -461 \\
+4.0  & 0.5 & -39 \\
+2.7  & 0.4 & -28 \\
+2.0  & 0.3 & -24 \\
+1.0  & 0.2 & -25 \\
+0.0  & 0.1 & -28 \\
+\hline
+\end{array}
+\]
+\\
+### Analysis:
+\\
+- As \( V_{CC} \) decreases, the collector current \( I_C \) decreases in both cases, but \( I_C \) is larger in Case B due to the higher base current.
+\\
+- The collector-emitter voltage \( V_{CE} \) also decreases and becomes less negative, especially in Case A, as the transistor approaches saturation.
+\\
+- In Case B, saturation occurs at a higher \( I_C \) due to the larger base current, indicating the higher current gain (\( \beta \)) in Case B.
+\\
+- Biggest drop happend around 3.5V, where \( V_{CE} \) dropped from -384mV to -36mV. This is likely due to the transistor entering saturation mode, where the collector current is nearly constant and the voltage drop across the collector-emitter junction is minimized.
+\\ \\ 
+### Graph:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab5_2Plot.png}
+    \caption{\(I_{C} \) vs \( V_{CE} \) Plot, with fit function for measured data}
+    \label{fig:graph1} 
+\end{figure}
+\\ \\ 
+
+
+3. \textbf{Saturation Voltage and Current Gain}:
+\\
+### Case A: \\
+- Base current \( I_B = 20 \, \mu A \) \\ 
+- The estimated saturation voltage for Case A is: \\
+  \[
+  V_{CE(sat)} \approx -25 \, \text{mV}
+  \]
+\\
+- The current gain \( \beta \) for Case A was calculated using \( \beta = \frac{I_C}{I_B} \). The values of \( \beta \) increase with \( V_{CE} \), reaching higher values before flattening out as the transistor approaches saturation.
+\\ \\ 
+### Case B: \\ 
+- Base current \( I_B = 40 \, \mu A \) \\ 
+- The estimated saturation voltage for Case B is: \\
+  \[
+  V_{CE(sat)} \approx -28 \, \text{mV}
+  \]
+\\
+- The current gain \( \beta \) for Case B is higher than Case A, indicating greater amplification due to the increased base current.
+\\
+### Conclusion:
+From the plots, we can see that both transistors enter saturation at approximately similar values of \( V_{CE(sat)} \), with Case B showing a slightly higher \( \beta \) due to the higher base current. These results align with the expected behavior of the transistor in active and saturation regions.
+
+4. \textbf{Collector Current vs Base-Emitter Voltage}:
+   - Use the Ebers-Moll equation to describe the relationship between collector current and base-emitter voltage:
+   \[
+   I_C = I_S \left( e^{\frac{V_{BE}}{kT}} - 1 \right)
+   \]
+   - Plot \(I_C\) vs \(V_{BE}\) on a logarithmic scale.
+
+5. \textbf{Sine Wave Amplification}:
+   - Sketch and describe the voltage behavior for the transistor in the circuit for both small and large input signals.
+   
+6. \textbf{Undistorted Sine Wave}:
+   - Report the DC offset and amplitude you used to produce an undistorted sine wave.
+
+\end{document}
+
+
+
 \end{document}
