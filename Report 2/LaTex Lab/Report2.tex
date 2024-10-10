@@ -435,20 +435,99 @@ V_{CC} \, (\text{V}) & I_C \, (\mu A) & V_{CE} \, (\text{mV}) \\
   \]
 \\
 - The current gain \( \beta \) for Case B is higher than Case A, indicating greater amplification due to the increased base current.
-\\
+\\ \\
 ### Conclusion:
-From the plots, we can see that both transistors enter saturation at approximately similar values of \( V_{CE(sat)} \), with Case B showing a slightly higher \( \beta \) due to the higher base current. These results align with the expected behavior of the transistor in active and saturation regions.
+From the plots, we can see that both transistors enter saturation at approximately similar values of \( V_{CE(sat)} \), with Case B 
+showing a slightly higher \( \beta \) due to the higher base current. These results align with the expected behavior of the 
+transistor in active and saturation regions.
+
+### Graph:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab5_3.png}
+    \caption{Graph of \(\beta\) vs \(V_{CE}\) for Case A and Case B. with \(v_{CE -sat point}\) marked. The Saturation point value was determined by looking where the graphs from question 2 dipped in change.}
+    \label{fig:graph1} 
+\end{figure}
 
 4. \textbf{Collector Current vs Base-Emitter Voltage}:
-   - Use the Ebers-Moll equation to describe the relationship between collector current and base-emitter voltage:
-   \[
-   I_C = I_S \left( e^{\frac{V_{BE}}{kT}} - 1 \right)
-   \]
-   - Plot \(I_C\) vs \(V_{BE}\) on a logarithmic scale.
+\\
+The relationship between the collector current \( I_C \) and the base-emitter voltage \( V_{BE} \) is given by the Ebers-Moll equation:
+\\
+\[
+I_C = I_S \left( e^{\frac{V_{BE}}{kT}} - 1 \right)
+\]
+\\ \\ 
+### Graphs:
+\\ \\
+1. \textbf{Linear Scale}: The plot of \( I_C \) vs. \( V_{BE} \) on a linear scale shows a near-exponential increase in collector current as the base-emitter voltage increases. This is consistent with the expected behavior of a transistor in forward active mode.
+\\ \\ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab5_4_linear.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+
+2. \textbf{Logarithmic Scale}: The plot of \( I_C \) vs. \( V_{BE} \) on a logarithmic scale highlights the exponential nature of the relationship. The straight-line behavior on the logarithmic plot confirms the exponential relationship predicted by the Ebers-Moll equation.
+\\ \\ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab5_4_Log.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+
+
+### Conclusion:
+The data confirms the exponential relationship between \( I_C \) and \( V_{BE} \), as expected from the theory. As the base-emitter voltage increases, the collector current rises exponentially, which is a key characteristic of the transistor's operation in active mode.
+\\ \\ 
 
 5. \textbf{Sine Wave Amplification}:
-   - Sketch and describe the voltage behavior for the transistor in the circuit for both small and large input signals.
-   
+\\ \\ 
+In this experiment, we are asked to predict the behavior of \( V_{out} \) and \( V_B \) for different input amplitudes. Below is an analysis based on the circuit configuration and values provided.
+
+\\
+### Circuit Parameters:
+\\ \\ 
+- \( R_B = 10 \, k\Omega \) \\ 
+- \( V_{in} = 0.5 \, V \, \text{pp} \), 1 kHz sine wave with no DC offset. \\ 
+- \( V_{CC} \) is set between +10V and +15V, We set it to 15v \\ 
+\\ \\ 
+### Initial Input Amplitude (Less than 0.7V): \\ \\ 
+For small input signals (less than 0.7V), the base-emitter junction is not fully forward biased. In this region:
+\\ \\ 
+- The base voltage \( V_B \) follows the input signal with a small amplitude. \\ 
+- The output voltage \( V_{out} \) remains relatively high, near \( V_{CC} \), as the transistor is not conducting significantly.\\ 
+\\ \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab5_5_Below.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+\\ \\ 
+
+### Input Amplitude Greater than 0.7V: \\ \\ 
+As the input amplitude exceeds 0.7V, the base-emitter junction becomes fully forward biased. In this region: \\ \\
+- \( V_B \) becomes clamped at approximately 0.7V, as the transistor turns on. \\ 
+- The collector current \( I_C \) increases, causing a larger voltage drop across \( R_C \), which decreases \( V_{out} \). \\
+\\ \\ 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab5_5_Above.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+\\ \\ 
+
+### Explanation: \\ \\
+- The diode between the base and emitter becomes forward biased when \( V_{in} \) exceeds 0.7V, clamping \( V_B \) at this value. \\ 
+- The voltage drop across \( R_C \) increases as \( I_C \) increases, reducing \( V_{out} \). \\ 
+- The relationship between \( I_C \) and \( I_B \) is governed by the current gain \( \beta \), with \( I_C = \beta I_B \). \\ 
+
+\\ \\ 
 6. \textbf{Undistorted Sine Wave}:
    - Report the DC offset and amplitude you used to produce an undistorted sine wave.
 
