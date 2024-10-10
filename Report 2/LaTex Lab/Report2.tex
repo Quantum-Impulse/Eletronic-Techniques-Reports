@@ -529,9 +529,69 @@ As the input amplitude exceeds 0.7V, the base-emitter junction becomes fully for
 
 \\ \\ 
 6. \textbf{Undistorted Sine Wave}:
-   - Report the DC offset and amplitude you used to produce an undistorted sine wave.
+\\ \\ 
 
-\end{document}
+In this part of the experiment, we predicted the behavior of a common-emitter amplifier with the following parameters: \\ 
+\begin{itemize}
+    \item Input signal: \( V_{in} = 1 \, \text{V peak-to-peak} \), sine wave
+    \item Supply voltage: \( V_{CC} = 15 \, \text{V DC} \)
+    \item Resistors: \( R_B = 10 \, k\Omega \), \( R_C = 2 \, k\Omega \), \( R_E = 1 \, k\Omega \)
+\end{itemize}
+\\ \\ 
+### Gain Calculation: \\ 
+The gain for a common-emitter amplifier is given by the formula:\\ 
+\[
+A_v = - \frac{R_C}{R_E}
+\]
+Substituting the given values:\\ 
+\[
+A_v = - \frac{2 \, k\Omega}{1 \, k\Omega} = -2
+\]
+\\
+The output voltage is therefore inverted and amplified by a factor of 2 compared to the input voltage.
+\\ \\ 
+### Graph\\
+The following graph illustrates the input and output waveforms: \\ 
+- The input waveform is a 1V peak-to-peak sine wave. \\ 
+- The output waveform is inverted and amplified by a factor of -2. \\ 
+\\ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab5_6.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+\\ \\
+
+The calculated gain is \( A_v \approx -2 \), consistent with the theoretical prediction.
+
+
+7. \textbf{Output Distortion and Clipping} \\ \\
+
+In this experiment, we increased the input signal beyond the normal operating limits of the transistor amplifier. The circuit parameters are:\\ 
+\begin{itemize}
+    \item Input signal: \( V_{in} = 2 \, \text{V peak-to-peak} \), sine wave
+    \item Supply voltage: \( V_{CC} = 15 \, \text{V DC} \)
+    \item Gain: \( A_v = -2 \)
+\end{itemize}
+\\ \\ 
+### Clipping and Distortion: \\
+As the input signal increased beyond the operating limits of the amplifier, the output signal began to clip. Clipping occurs when the output signal exceeds the supply voltage (\( \pm 15 \, \text{V} \)) and the transistor enters its saturation or cut-off region. In this region:
+\\
+- The gain no longer follows a linear relationship, and the output signal flattens at the peaks.\\ 
+\\  \\ß
+\textbf{Graph:} \\ \\
+The following graph shows the input and output signals. The output is clearly clipped at \( \pm 15 \, \text{V} \), indicating the limits of the transistor’s amplification.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab5_7.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+
+
+### Conclusion: \\ 
+Clipping is a common effect in amplifiers when the input signal is too large. The transistor can no longer linearly amplify the input, resulting in distortion at the peaks of the output signal.
 
 
 
