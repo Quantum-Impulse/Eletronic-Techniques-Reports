@@ -693,7 +693,125 @@ The results align with the J310 JFET data sheet, which shows similar behavior fo
 ### Conclusion:
 The measured values for \( I_D \) and \( g_m \) are consistent with the expected behavior of a J310 JFET, as confirmed by comparison with the device's data sheet. The drain current decreases with decreasing \( V_{GS} \), and the transconductance decreases as the device approaches cutoff.
 
+\\ \\ 
+2. \textbf{2N7000 MOSFET Measurement and Transconductance:}
+\\ \\ 
 
+In this part of the lab, we measured the drain current \( I_D \) as a function of the gate-source voltage \( V_{GS} \) for the 2N7000 n-channel MOSFET.
+\\ 
+### Data:\\ 
+The following table shows the recorded values for \( V_{GS} \) and \( I_D \). \\ 
+
+\[
+\begin{array}{|c|c|}
+\hline
+V_{GS} \, (\text{V}) & I_D \, (\text{mA}) \\
+\hline
+0.0 & 0.0 \\
+0.5 & 0.0 \\
+1.0 & 0.0 \\
+1.5 & 0.4 \\
+2.0 & 38.1 \\
+2.5 & 142.8 \\
+3.0 & 195.3 \\
+4.5 & 195.3 \\
+5.0 & 195.8 \\
+\hline
+\end{array}
+\]
+\\ \\
+### Plot of \( I_D \) vs \( V_{GS} \): \\ 
+Below is the graph of \( I_D \) as a function of \( V_{GS} \). The plot shows that the MOSFET turns on at \( V_{GS} \approx 1.5 \, V \), and as \( V_{GS} \) increases, the drain current \( I_D \) increases rapidly until it saturates.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab6_2_IdVSVgs.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+
+### Transconductance Calculation: \\ 
+The transconductance \( g_m \) is given by: \\ 
+\[
+g_m = \frac{I_D}{V_{GS}}
+\]
+\\ 
+The plot below shows the calculated transconductance \( g_m \) as a function of \( V_{GS} \). The transconductance increases sharply after the MOSFET turns on and reaches a maximum value around \( V_{GS} = 3 \, V \), after which it levels off as the MOSFET enters saturation.
+\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab6_2_gmVSVgs.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+\\ 
+### Conclusion: \\ 
+The measured data an calculated transconductance for the 2N7000 MOSFET match the expected behavior. The MOSFET remains off for small gate voltages and turns on sharply after \( V_{GS} \approx 1.5 \, V \), with the transconductance peaking as the MOSFET enters saturation.
+
+\\ \\
+3. \textbf{2N7000 MOSFET \( I_D \) vs \( V_{DS} \)}
+\\
+In this part of the lab, we measured the drain current \( I_D \) as a function of the drain-source voltage \( V_{DS} \) for the 2N7000 n-channel MOSFET. This analysis shows the behavior of the MOSFET as it transitions from the ohmic region to the saturation region.
+\\ 
+### Data: \\ 
+The following table shows the recorded values for \( V_{DS} \) and \( I_D \): \\ 
+\\ 
+\[
+\begin{array}{|c|c|}
+\hline
+V_{DS} \, (\text{V}) & I_D \, (\text{mA}) \\
+\hline
+0.0 & 1.6 \\
+0.5 & 9.9 \\
+1.0 & 18.7 \\
+1.5 & 27.0 \\
+2.0 & 36.9 \\
+2.5 & 45.0 \\
+3.0 & 55.7 \\
+3.5 & 63.8 \\
+4.0 & 72.8 \\
+4.5 & 82.2 \\
+5.0 & 92.3 \\
+\hline
+\end{array}
+\]
+\\ 
+### Plot of \( I_D \) vs \( V_{DS} \):\\ 
+Below is the graph of \( I_D \) as a function of \( V_{DS} \). The plot shows that the MOSFET operates in the ohmic region 
+for small values of \( V_{DS} \), where \( I_D \) increases linearly with \( V_{DS} \). As \( V_{DS} \) increases, 
+the MOSFET transitions to the saturation region, where the current increases at a slower rate.
+But in our case when collecting data, we did not see the saturation region.
+\\ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab6_3_idVSVds.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+\\
+### Conclusion:\\ 
+The MOSFET behavior follows the expected trend, where \( I_D \) increases with \( V_{DS} \) in the linear region. The current becomes less sensitive to changes in \( V_{DS} \) as the MOSFET enters the saturation region. This transition from ohmic to saturation is characteristic of n-channel MOSFETs like the 2N7000.
+\\ \\ 
+
+4. \textbf{Oscilloscope Results and Switching Behavior:} \\  \\ 
+
+In this part of the lab, we used an oscilloscope to observe the effects of switching on a triangular wave signal. The switch allowed us to observe how the circuit modified the signal when switched on and off.
+\\ \\
+### Observations:\\ 
+\\
+1. \textbf{Switch Off (Full Triangular Wave)}: \\
+   - With the switch off, the oscilloscope showed a full triangular wave with both the positive and negative peaks clearly visible. This indicates that the signal passed through the circuit unchanged, and no clipping or rectification occurred. Both peaks of the wave were symmetrical, showing the unmodified triangular waveform.
+\\ \\ 
+2. \textbf{Switch On (Clipping/Rectification)}: \\ 
+   - When the switch was turned on, the oscilloscope displayed only the **positive peaks** of the triangular wave, with the negative part of the waveform completely cut off. This suggests that the circuit was performing some form of **rectification** or **clipping**, where only the positive half of the signal was allowed to pass, while the negative half was blocked.
+   \\
+   - The top part of the waveform remained intact, but the bottom part was no longer present, indicating that the circuit was cutting off the negative peaks of the input signal.
+\\ \\ 
+3. \textbf{Delayed Transition}:\\ 
+   - There was a noticeable **delay** when switching between the two waveforms. The transition between the full triangular wave and the clipped waveform took a short amount of time, indicating that the circuit took time to stabilize. This delay could be due to components such as capacitors or transistors in the circuit, which require time to charge or discharge during the switching process.
+\\ \\ 
+### Conclusion: \\ 
+The oscilloscope results suggest that the circuit behaves as a **rectifier or clipper** when the switch is turned on, allowing only the positive half of the signal to pass. The delay in the transition between the two waveforms suggests that the circuit requires time to adjust when switching, likely due to capacitive effects or the behavior of the transistors involved.
 
 
 
