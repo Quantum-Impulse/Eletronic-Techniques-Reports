@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  9 OCT 2024 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  10 OCT 2024 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,8 +290,7 @@ Package color Info: Driver file: pdftex.def on input line 149.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box66
-)
-No file Report2.aux.
+) (Report2.aux)
 \openout1 = `Report2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -312,7 +311,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
-(/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+ (/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
 \scratchdimen=\dimen172
@@ -1596,8 +1595,223 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:598: LaTeX Error: There's no line here to end.
 
-[20 <./img/Lab5_7.png>] (Report2.aux)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.598 \\ \\
+            \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:598: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.598 \\ \\ \\
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:599: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.599 \section
+              *{Lab 6: Advanced Transistor Circuits}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[20 <./img/Lab5_7.png>]
+Overfull \hbox (7.13074pt too wide) in paragraph at lines 631--633
+\OT1/cmr/m/n/10 voltage $\OML/cmm/m/it/10 V[]$ \OT1/cmr/m/n/10 for a J310 JFET. We also calculated the transistor's transconductance
+ []
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:634: You can't use `macro parameter character #' in vertical mode.
+l.634 #
+       ## Data:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:634: You can't use `macro parameter character #' in vertical mode.
+l.634 ##
+        # Data:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:634: You can't use `macro parameter character #' in vertical mode.
+l.634 ###
+          Data:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+
+[21]
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:666: You can't use `macro parameter character #' in vertical mode.
+l.666 #
+       ## Plot of \( I_D \) vs \( V_{GS} \):
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:666: You can't use `macro parameter character #' in vertical mode.
+l.666 ##
+        # Plot of \( I_D \) vs \( V_{GS} \):
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:666: You can't use `macro parameter character #' in vertical mode.
+l.666 ###
+          Plot of \( I_D \) vs \( V_{GS} \):
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+<./img/Lab6_1_IdVSVgs.png, id=181, 714.7503pt x 426.393pt>
+File: ./img/Lab6_1_IdVSVgs.png Graphic file (type png)
+<use ./img/Lab6_1_IdVSVgs.png>
+Package pdftex.def Info: ./img/Lab6_1_IdVSVgs.png  used on input line 671.
+(pdftex.def)             Requested size: 310.4979pt x 185.23872pt.
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:676: You can't use `macro parameter character #' in vertical mode.
+l.676 #
+       ## Transconductance Calculation:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:676: You can't use `macro parameter character #' in vertical mode.
+l.676 ##
+        # Transconductance Calculation:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:676: You can't use `macro parameter character #' in vertical mode.
+l.676 ###
+          Transconductance Calculation:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+
+[22 <./img/Lab6_1_IdVSVgs.png>]
+<./img/Lab6_1_gmVSVgs.png, id=188, 714.7503pt x 426.393pt>
+File: ./img/Lab6_1_gmVSVgs.png Graphic file (type png)
+<use ./img/Lab6_1_gmVSVgs.png>
+Package pdftex.def Info: ./img/Lab6_1_gmVSVgs.png  used on input line 685.
+(pdftex.def)             Requested size: 310.4979pt x 185.23872pt.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:690: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.690 #
+       ## Comparison with J310 Data Sheet:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:690: You can't use `macro parameter character #' in vertical mode.
+<recently read> ##
+                  
+l.690 #
+       ## Comparison with J310 Data Sheet:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:690: You can't use `macro parameter character #' in vertical mode.
+l.690 ##
+        # Comparison with J310 Data Sheet:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:690: You can't use `macro parameter character #' in vertical mode.
+l.690 ###
+          Comparison with J310 Data Sheet:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:693: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.693 #
+       ## Conclusion:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:693: You can't use `macro parameter character #' in horizontal mode.
+l.693 ##
+        # Conclusion:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 2/LaTex Lab/Report2.tex:693: You can't use `macro parameter character #' in horizontal mode.
+l.693 ###
+          Conclusion:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (1.86365pt too wide) in paragraph at lines 690--695
+\OT1/cmr/m/n/10 data sheet, which shows similar behavior for $\OML/cmm/m/it/10 I[]$ \OT1/cmr/m/n/10 vs $\OML/cmm/m/it/10 V[]$ \OT1/cmr/m/n/10 and for transconductance.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--695
+
+ []
+
+
+Overfull \hbox (7.31583pt too wide) in paragraph at lines 690--695
+\OT1/cmr/m/n/10 sheet. The drain current decreases with decreasing $\OML/cmm/m/it/10 V[]$\OT1/cmr/m/n/10 , and the transconductance
+ []
+
+
+
+[23 <./img/Lab6_1_gmVSVgs.png>] (Report2.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -1616,17 +1830,17 @@ Package rerunfilecheck Info: Checksums for `Report2.out':
 (rerunfilecheck)             After:  C3E5875BA0049176A7EEEFAF41C8C54F;116.
  ) 
 Here is how much of TeX's memory you used:
- 14595 strings out of 475833
- 297090 string characters out of 2775517
- 646318 words of memory out of 3000000
- 37057 multiletter control sequences out of 15000+600000
+ 14621 strings out of 475833
+ 297750 string characters out of 2775517
+ 646309 words of memory out of 3000000
+ 37072 multiletter control sequences out of 15000+600000
  563787 words of font info for 56 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,10n,80p,481b,923s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,10n,80p,546b,966s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Report2.pdf (20 pages, 1216963 bytes).
+Output written on Report2.pdf (23 pages, 1286519 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

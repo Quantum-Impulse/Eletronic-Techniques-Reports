@@ -110,6 +110,9 @@ INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend-dev/l3backend-pdftex.def
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend-dev/l3backend-pdftex.def
+INPUT ./Report2.aux
+INPUT ./Report2.aux
+INPUT Report2.aux
 OUTPUT Report2.aux
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -306,6 +309,20 @@ INPUT ./img/Lab5_7.png
 INPUT ./img/Lab5_7.png
 INPUT ./img/Lab5_7.png
 INPUT ./img/Lab5_7.png
+INPUT ./img/Lab6_1_IdVSVgs.png
+INPUT ./img/Lab6_1_IdVSVgs.png
+INPUT ./img/Lab6_1_IdVSVgs.png
+INPUT ./img/Lab6_1_IdVSVgs.png
+INPUT ./img/Lab6_1_IdVSVgs.png
+INPUT ./img/Lab6_1_IdVSVgs.png
+INPUT ./img/Lab6_1_IdVSVgs.png
+INPUT ./img/Lab6_1_gmVSVgs.png
+INPUT ./img/Lab6_1_gmVSVgs.png
+INPUT ./img/Lab6_1_gmVSVgs.png
+INPUT ./img/Lab6_1_gmVSVgs.png
+INPUT ./img/Lab6_1_gmVSVgs.png
+INPUT ./img/Lab6_1_gmVSVgs.png
+INPUT ./img/Lab6_1_gmVSVgs.png
 INPUT Report2.aux
 INPUT ./Report2.out
 INPUT ./Report2.out

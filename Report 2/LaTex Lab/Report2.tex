@@ -595,4 +595,106 @@ Clipping is a common effect in amplifiers when the input signal is too large. Th
 
 
 
+\\ \\ \\ 
+\section*{Lab 6: Advanced Transistor Circuits}
+
+\subsection*{Important Concepts}
+- \textbf{Field Effect Transistors (FETs)}: FETs are a type of transistor where the current is controlled by an electric field. The two types of FETs used in this lab are:
+  \begin{itemize}
+    \item \textbf{J310 JFET (n-channel)}: A depletion-mode FET, where current flows with zero gate-source voltage, and applying negative \( V_{GS} \) reduces current.
+    \item \textbf{2N7000 MOSFET (n-channel)}: An enhancement-mode FET, where no current flows with zero gate-source voltage, and positive \( V_{GS} \) is required to turn it on.
+  \end{itemize}
+
+- \textbf{Transconductance \( g_m \)}: This is the gain of the transistor, given by the rate of change of drain current with respect to the gate-source voltage:
+\[
+g_m = \frac{\Delta I_D}{\Delta V_{GS}}
+\]
+
+- \textbf{MOSFET as a Switch}: MOSFETs can be used as switches, where applying a high enough \( V_{GS} \) fully turns on the device, allowing large currents to flow from drain to source.
+
+\subsection*{Equations}
+- \textbf{Differential Gain}:
+  \[
+  A_d = \frac{V_{out}}{V_{in1} - V_{in2}}
+  \]
+- \textbf{Current Mirror Equation}:
+  \[
+  I_{out} = \frac{I_{ref}}{R_{load}}
+  \]
+- \textbf{CMRR Calculation}:
+  \[
+  \text{CMRR} = 20 \log \left( \frac{A_d}{A_c} \right)
+  \]
+
+\subsection*{FYR Questions}
+
+1. \textbf{J310 JFET Measurement and Transconductance:}
+In this part of the experiment, we measured the drain current \( I_D \) as a function of the gate-source voltage \( V_{GS} \) for a J310 JFET. We also calculated the transistor's transconductance \( g_m \), which is the ratio of output current to input voltage.
+
+### Data:
+The following table shows the measured values for \( V_{GS} \) and \( I_D \):
+
+\[
+\begin{array}{|c|c|}
+\hline
+V_{GS} \, (\text{V}) & I_D \, (\text{mA}) \\
+\hline
+5.0 & 38.0 \\
+4.8 & 37.9 \\
+4.6 & 37.2 \\
+4.4 & 37.5 \\
+4.2 & 37.3 \\
+4.0 & 37.0 \\
+3.8 & 36.9 \\
+3.6 & 36.7 \\
+3.4 & 36.5 \\
+3.2 & 36.3 \\
+3.0 & 36.1 \\
+2.8 & 36.0 \\
+2.6 & 35.7 \\
+2.4 & 35.5 \\
+2.2 & 35.3 \\
+2.0 & 35.0 \\
+1.8 & 34.7 \\
+1.6 & 34.5 \\
+1.4 & 34.2 \\
+1.2 & 33.8 \\
+\hline
+\end{array}
+\]
+
+### Plot of \( I_D \) vs \( V_{GS} \):
+Below is the graph showing \( I_D \) as a function of \( V_{GS} \). As \( V_{GS} \) decreases, the drain current \( I_D \) also decreases, demonstrating the depletion-mode behavior typical of a JFET.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab6_1_IdVSVgs.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+
+### Transconductance Calculation:
+The transconductance \( g_m \) is defined as:
+\[
+g_m = \frac{I_D}{V_{GS}}
+\]
+The following plot shows the calculated transconductance \( g_m \) as a function of \( V_{GS} \). The transconductance decreases as \( V_{GS} \) becomes more negative, which aligns with the expected behavior of the J310 JFET.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./img/Lab6_1_gmVSVgs.png}
+    \caption{}
+    \label{fig:graph1} 
+\end{figure}
+\\ 
+### Comparison with J310 Data Sheet:
+The results align with the J310 JFET data sheet, which shows similar behavior for \( I_D \) vs \( V_{GS} \) and for transconductance. The decreasing transconductance with more negative \( V_{GS} \) is characteristic of depletion-mode JFETs. The calculated \( g_m \) values are consistent with typical transconductance values for JFETs, where the device exhibits high gain in the saturation region and lower gain as it approaches the cutoff region.
+\\ \\  
+### Conclusion:
+The measured values for \( I_D \) and \( g_m \) are consistent with the expected behavior of a J310 JFET, as confirmed by comparison with the device's data sheet. The drain current decreases with decreasing \( V_{GS} \), and the transconductance decreases as the device approaches cutoff.
+
+
+
+
+
 \end{document}
