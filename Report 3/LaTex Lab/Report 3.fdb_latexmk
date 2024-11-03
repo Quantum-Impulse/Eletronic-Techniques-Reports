@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1730669234.00504 "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex" "Report 3.pdf" "Report 3" 1730669240.16209 2
-  "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex" 1730669221.80737 27900 4e4a6b46a68c45ab5b75bdd9d3d411c2 ""
+["pdflatex"] 1730670725.12837 "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex" "Report 3.pdf" "Report 3" 1730670730.99711 2
+  "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex" 1730670718.03879 32130 39d9fae581932d5d61728bba8d94338f ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1726529996.36837 25678 aa7c8fd3909e804e7d85441c21595406 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1726537808.67697 11548 b101187c2ab8a47c6f9f0b6787b527f5 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1726529943.65786 8733517 1da6dbae8d83d2543fb040d0b7350f5c ""
@@ -91,9 +91,9 @@
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1726529955.47688 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/translations.sty" 1726529955.48084 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1726529987.55577 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Report 3.aux" 1730669239.98582 5338 a540a6e4d0d8ebcaa8f7c37a531dd2bf "pdflatex"
-  "Report 3.out" 1730669234.57146 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Report 3.tex" 1730669221.80737 27900 4e4a6b46a68c45ab5b75bdd9d3d411c2 ""
+  "Report 3.aux" 1730670730.81354 6820 edfd2b73c58cc6da08c571259a0a00f9 "pdflatex"
+  "Report 3.out" 1730670725.67076 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Report 3.tex" 1730670718.03879 32130 39d9fae581932d5d61728bba8d94338f ""
   "img/Lab 7/1_1.png" 1730591646.25918 89352 746440426baa5a57f773eaf1024b87d6 ""
   "img/Lab 7/1_2.png" 1730593228.47535 626298 006d59fbb18752f550305b74d4023613 ""
   "img/Lab 7/1_3.png" 1730593259.40613 643817 354ae9c08782de21254abbf095663066 ""
@@ -122,6 +122,8 @@
   "img/Lab 8/R_Low.JPG" 1729193442 183784 a0dbe7dd2797e6fdf14dd2dc8db2af22 ""
   "img/Lab 8/noR_High.JPG" 1729193544 178654 f5080b89b229cb4ea4360fa00166e340 ""
   "img/Lab 8/noR_Low.JPG" 1729193516 181721 cbc3d92607e837275b7c7a9e2e4a74dc ""
+  "img/Lab 9/1_1.png" 1730670695.3297 124160 a4ad0d8a08a5c15c505704918f0d700e ""
+  "placeholder" 0 -1 0 ""
   (generated)
   "Report 3.aux"
   "Report 3.log"

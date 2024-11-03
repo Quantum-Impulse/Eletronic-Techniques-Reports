@@ -648,6 +648,128 @@ This confirms the theoretical behavior of a relaxation oscillator, where the osc
 
 \section*{Lab 9: Operational Amplifiers III}
 
+\section*{Objective}
+The objective of this lab is to further explore the different kinds of 
+circuits created using op-amps, including a gyrating circuit and an 
+active notch filter.
+
+\section*{Part I: Gyrating Circuits}
+The first question asks us to recreate the circuit shown below in 
+Fig. 1a using a TL071 op-amp. We use our breadboard to set up two external 
+voltage sources as \( V_{CC} = +15V \) and \( V_{EE} = -15V \). Our 
+capacitor value is \( 10\,\text{nF} \), and both \( R_L \) and \( R_I \) 
+are set equal to \( 1\,\text{k}\Omega \).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/Lab 9/1_1.png} % Replace with the actual circuit diagram
+    \caption{Gyrator circuit}
+\end{figure}
+
+Below is the recorded data showing \( V_{0,\text{out}} \), \( V_{0,\text{in}} \), 
+and the phase shift \( \phi \) at various frequencies:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\( f \, (\text{Hz}) \) & \( V_{0,\text{out}} \, (\text{V}) \) & \( V_{0,\text{in}} \, (\text{V}) \) & Phase shift \( (\degree) \) \\
+\hline
+400   & 0.160 & 4.6  & 100 \\
+1k    & 0.368 & 4.6  & 88  \\
+4k    & 1.26  & 4.64 & 76.5 \\
+10k   & 2.66  & 4.64 & 54.8 \\
+50k   & 4.48  & 4.64 & 14.9 \\
+80k   & 4.6   & 4.68 & 7.59 \\
+100k  & 4.64  & 4.64 & 5.03 \\
+150k  & 4.72  & 4.72 & 1.62 \\
+200k  & 4.72  & 4.72 & 0 \\
+300k  & 4.72  & 4.72 & -4.46 \\
+400k  & 4.72  & 4.72 & -7.94 \\
+\hline
+\end{tabular}
+\caption{Recorded data for gyrator circuit}
+\end{table}
+
+Below are plots of both gain \( (V_{0,\text{out}}/V_{0,\text{in}}) \) 
+and phase shift \( (\phi) \) plotted as functions of frequency:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{placeholder} % Replace with gain plot
+    \caption{Gain as a function of frequency}
+    \label{fig:gain}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{placeholder} % Replace with phase shift plot
+    \caption{Phase shift as a function of frequency}
+    \label{fig:phase}
+\end{figure}
+
+To verify these dependencies, we compare the gain and phase shift of the 
+gyrating circuit with a simple RL circuit as shown below:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{placeholder} % Replace with RL circuit and simulation results
+    \caption{Simulation of RL Circuit showing gain and phase vs frequency}
+\end{figure}
+
+\section*{Part II: Active Notch Filter}
+The second part involves recreating the circuit shown in Fig. 3 using a TL071 
+op-amp. We use \( V_{CC} = +15V \), \( V_{EE} = -15V \), \( C = 10\,\text{nF} \), 
+and all resistors set to \( 1\,\text{k}\Omega \). The notch frequency is 
+calculated as \( f_{\text{notch}} = \frac{1}{2\pi RC} \approx 16\,\text{kHz} \).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{placeholder} % Replace with circuit diagram
+    \caption{Active Notch Filter circuit}
+\end{figure}
+
+The recorded data showing \( V_{0,\text{out}} \), \( V_{0,\text{in}} \), 
+and phase shift \( \phi \) at various frequencies are presented below:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\( f \, (\text{Hz}) \) & \( V_{0,\text{out}} \, (\text{V}) \) & \( V_{0,\text{in}} \, (\text{V}) \) & Phase shift \( (\degree) \) \\
+\hline
+1k   & 4.6   & 4.6  & -8.35  \\
+5k   & 3.68  & 4.6  & -37.6  \\
+8k   & 2.56  & 4.52 & -55.2  \\
+10k  & 1.76  & 4.48 & -65.9  \\
+13k  & 0.680 & 4.48 & 76.5   \\
+15k  & 0.200 & 4.52 & 106    \\
+16k  & 0.360 & 4.44 & 78.6   \\
+19k  & 1.12  & 4.48 & 73.4   \\
+22k  & 1.68  & 4.48 & 65.4   \\
+28k  & 2.6   & 4.52 & 54.3   \\
+50k  & 3.88  & 4.6  & -8.61  \\
+164  & 4.6   & 4.6  & 30     \\
+\hline
+\end{tabular}
+\caption{Recorded data for Active Notch Filter}
+\end{table}
+
+Below is a plot of the gain \( (V_{0,\text{out}}/V_{0,\text{in}}) \) 
+as a function of frequency:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{placeholder} % Replace with gain plot
+    \caption{Gain as a function of frequency}
+\end{figure}
+
+The notch filter effectively blocks frequencies near 
+\( f_{\text{notch}} \approx 16\,\text{kHz} \) with a bandwidth 
+from approximately 10kHz to 19kHz. The phase shift behavior is 
+also recorded for various frequencies.
+
+
 
 
 \end{document}

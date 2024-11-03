@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  3 NOV 2024 15:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  3 NOV 2024 15:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -718,11 +718,126 @@ Overfull \hbox (6.00063pt too wide) in paragraph at lines 641--642
 
 
 
-[22 <./img/Lab 8/7_1.png>] (Report 3.aux)
+[22 <./img/Lab 8/7_1.png>]
+<img/Lab 9/1_1.png, id=218, 585.18625pt x 456.70625pt>
+File: img/Lab 9/1_1.png Graphic file (type png)
+<use img/Lab 9/1_1.png>
+Package pdftex.def Info: img/Lab 9/1_1.png  used on input line 665.
+(pdftex.def)             Requested size: 207.0021pt x 161.55692pt.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:676: Undefined control sequence.
+\degree ->\ERROR 
+                 
+l.676 ..., (\text{V}) \) & Phase shift \( (\degree
+                                                  ) \) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[23 <./img/Lab 9/1_1.png>]
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:699: LaTeX Error: File `placeholder' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 ...aphics[width=0.45\textwidth]{placeholder}
+                                                   % Replace with gain plot
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:706: LaTeX Error: File `placeholder' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.706 ...aphics[width=0.45\textwidth]{placeholder}
+                                                   % Replace with phase shif...
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:716: LaTeX Error: File `placeholder' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.716 ...raphics[width=0.6\textwidth]{placeholder}
+                                                   % Replace with RL circuit...
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:728: LaTeX Error: File `placeholder' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.728 ...raphics[width=0.6\textwidth]{placeholder}
+                                                   % Replace with circuit di...
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (8.44502pt too wide) in paragraph at lines 732--734
+[]\OT1/cmr/m/n/10 The recorded data showing $\OML/cmm/m/it/10 V[]$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 V[]$\OT1/cmr/m/n/10 , and phase shift $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 at various frequencies
+ []
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:739: Undefined control sequence.
+\degree ->\ERROR 
+                 
+l.739 ..., (\text{V}) \) & Phase shift \( (\degree
+                                                  ) \) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[24]
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:763: LaTeX Error: File `placeholder' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.763 ...aphics[width=0.45\textwidth]{placeholder}
+                                                   % Replace with gain plot
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+
+[25] (Report 3.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `"Report 3".out' has changed.
@@ -734,17 +849,17 @@ Package rerunfilecheck Info: Checksums for `"Report 3".out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14646 strings out of 475833
- 297841 string characters out of 2775517
- 642352 words of memory out of 3000000
- 37079 multiletter control sequences out of 15000+600000
+ 14699 strings out of 475833
+ 298851 string characters out of 2775517
+ 646352 words of memory out of 3000000
+ 37118 multiletter control sequences out of 15000+600000
  564406 words of font info for 58 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  75i,13n,80p,577b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Report 3.pdf" (22 pages, 11610118 bytes).
+Output written on "Report 3.pdf" (25 pages, 11711679 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
