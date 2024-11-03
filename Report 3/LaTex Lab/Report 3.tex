@@ -538,19 +538,74 @@ The following graphs illustrate the observed waveforms for both cases:
 Without \( R_3 \), the comparator switches states sharply at the lower (\( 3.5\,\text{V} \)) and upper (\( 5.0\,\text{V} \)) thresholds, making it susceptible to noise. With \( R_3 \), hysteresis is introduced, shifting the thresholds to \( 2.2\,\text{V} \) and \( 4.1\,\text{V} \). This stabilizes the output, prevents rapid toggling, and improves performance in noisy environments by creating a memory effect.
 
 \subsection*{Question 5}
+Using the same circuit as above with \( R_3 \) connected, we observed the hysteresis curve directly by connecting both the input and output of the circuit to the oscilloscope in XY mode. Channel 1 (horizontal axis) displayed the triangle wave input \( V_{\text{in}} \), and Channel 2 (vertical axis) displayed the output \( V_{\text{out}} \).
+\\
+\\
+Initially, we observed the hysteresis curve using a triangle wave input with no DC offset. As we varied the DC offset, we noted the following behavior: \\ 
+- When increasing the DC offset positively, the bottom line of the hysteresis loop was displayed. \\
+- When decreasing the DC offset negatively, the top line of the hysteresis loop appeared. \\
+
+\\
+This behavior shows that the hysteresis curve depends on the input signal's relationship to the threshold voltages. Below are the screenshots from the oscilloscope in XY mode, illustrating the hysteresis behavior.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/Lab 8/5_1.JPG} % Replace with actual image path
+    \caption{Hysteresis curve showing the bottom line when the DC offset is increased positively.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/Lab 8/5_2.JPG} % Replace with actual image path
+    \caption{Hysteresis curve showing the top line when the DC offset is decreased negatively.}
+\end{figure}
+
+\textbf{Explanation:} \\
+In XY mode, the hysteresis loop provides a visual representation of the 
+input-output relationship of the Schmitt trigger. The curve shows how the 
+output \( V_{\text{out}} \) changes state at different input voltages 
+\( V_{\text{in}} \) due to the feedback resistor \( R_3 \), which introduces 
+hysteresis. By varying the DC offset, we could observe how the hysteresis 
+loop behaves, highlighting the switching behavior of the comparator circuit. 
+We see this loop on the graph as the input signal moves between the upper 
+and lower thresholds, demonstrating the memory effect of the Schmitt trigger.
+
 
 \subsection*{Question 6}
-\textbf{Objective:} Derive the theoretical threshold voltages for the Schmitt trigger and compare them to observed values.
 
-\textbf{Derivation:}
-Using the op-amp rules, the threshold voltages \( V_{\text{th+}} \) and \( V_{\text{th-}} \) are given by:
+Using our knowledge of RC circuits, as well as the op-amp rules:
+\begin{enumerate}
+    \item The output attempts to do whatever is necessary to make the voltage difference between the two inputs zero.
+    \item The inputs draw no current.
+\end{enumerate}
+
+We can relate \( V_{\text{th}} \), \( V_{\text{DC}} \), \( V_{\text{out}} \), \( R_1 \), \( R_2 \), and \( R_3 \) in a single equation. According to Kirchhoff's law, the voltage at \( V_{\text{th}} \) equals \( V^+ \). Therefore, we can write:
 \[
-V_{\text{th+}} = \frac{R_1}{R_1 + R_2} V_{\text{DC}}
+I_1 = \frac{V_{\text{DC}} - V_{\text{th}}}{R_1}, \quad I_2 = \frac{V_{\text{th}}}{R_2}, \quad I_3 = \frac{V_{\text{out}} - V_{\text{th}}}{R_3}
 \]
+
+From rule (1), we know that \( I_1 + I_3 = I_2 \).
+
+Substituting our current formulas into the above equation, we get:
 \[
-V_{\text{th-}} = -\frac{R_3}{R_1 + R_3} V_{\text{DC}}
+\frac{V_{\text{DC}} - V_{\text{th}}}{R_1} + \frac{V_{\text{out}} - V_{\text{th}}}{R_3} = \frac{V_{\text{th}}}{R_2}
 \]
-The calculated values closely matched the observed hysteresis points.
+
+After simplifying, we derive the following equation for \( V_{\text{th}} \):
+\[
+V_{\text{th}} = \frac{R_2 R_3 V_{\text{DC}} + R_1 R_2 V_{\text{out}}}{R_1 R_2 + R_1 R_3 + R_2 R_3}
+\]
+
+Using this equation, we can predict the threshold voltages from above. With \( V_{\text{DC}} = 10\,\text{V} \) and \( V_{\text{out}} \) at its maximum (\( \approx 15\,\text{V} \)), we calculate the threshold for \( V_{\text{out}} \) to transition away from its maximum as \( V_{\text{in}} = 4.52\,\text{V} \). This is close to our measured maximum threshold voltage of \( 4.96\,\text{V} \).
+
+At \( V_{\text{out}} \) minimum (\( \approx 1.5\,\text{V} \)), using the formula for \( V_{\text{th}} \), we find the transition occurs at \( V_{\text{in}} = 2.89\,\text{V} \), which aligns closely with our measured minimum threshold voltage of \( 2.80\,\text{V} \).
+
+A Schmitt trigger swaps \( V_{\text{out}} \) between high and low voltages, exhibiting hysteresis. This means the threshold for switching from low to high voltage (\( V_{\text{th}-} \)) is lower than the threshold for switching from high to low voltage (\( V_{\text{th}+} \)). Hysteresis helps prevent noise from causing random transitions, as significant changes in \( V_{\text{in}} \) are required to switch \( V_{\text{out}} \) back to its original state.
+
+The hysteresis in a Schmitt trigger arises from positive feedback through \( R_3 \). When \( V_{\text{out}} \) is high, \( V_{\text{th}} \) increases, raising the threshold voltage. Conversely, when \( V_{\text{out}} \) is low, \( V_{\text{th}} \) decreases, lowering the threshold voltage. This behavior stabilizes the circuit by preventing rapid toggling due to minor input fluctuations.
+
+The mathematical reasoning is derived from rule (2), which ensures no current is drawn by the inputs. Rule (1) explains why \( V^+ \) is equal to \( V^- \), leading to the observed switching behavior and the variation in \( V_{\text{th}} \) with \( V_{\text{in}} \).
+
 
 \subsection*{Question 7}
 \textbf{Objective:} Build a relaxation oscillator and analyze the frequency.
