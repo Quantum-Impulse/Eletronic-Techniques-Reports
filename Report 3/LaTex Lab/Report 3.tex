@@ -608,14 +608,44 @@ The mathematical reasoning is derived from rule (2), which ensures no current is
 
 
 \subsection*{Question 7}
-\textbf{Objective:} Build a relaxation oscillator and analyze the frequency.
 
-\textbf{Observation:}
-The output of the oscillator was a square wave, and the frequency depended on the resistor and capacitor values used in the circuit. The frequency \( f \) is given by:
+For the final part of this lab, we were asked to construct the circuit shown in Figure 8.5, a relaxation oscillator using a TL071 op-amp.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/Lab 8/7_1.png} % Replace with actual image path for the circuit diagram
+    \caption{Relaxation Oscillator Circuit}
+\end{figure}
+
+We varied the resistor \( R \) and capacitor \( C \) components and recorded the oscillations using an oscilloscope. The component values of \( R \) and \( C \), along with the frequency of the resulting oscillation, are summarized in the table below.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \( C \, (\text{nF}) \) & \( R \, (\text{k}\Omega) \) & \( f \, (\text{kHz}) \) \\
+        \hline
+        1.0  & 161   & 2.22 \\
+        10.5 & 161   & 0.216 \\
+        3.36 & 161   & 0.684 \\
+        3.36 & 20.1  & 6.24  \\
+        3.36 & 44.3  & 2.89  \\
+        10.5 & 44.3  & 0.913 \\
+        10.5 & 20.1  & 2.03  \\
+        1.0  & 44.3  & 9.14  \\
+        1.0  & 20.1  & 19.6  \\
+        \hline
+    \end{tabular}
+    \caption{Recorded values of \( C \), \( R \), and the resulting oscillation frequency \( f \)}
+\end{table}
+
+From our data, we observed that the output frequency is inversely proportional to the product of \( R \) and \( C \). In other words, the relationship can be described by the equation:
 \[
-f = \frac{1}{2RC}
+f = \frac{1}{RC}
 \]
+This confirms the theoretical behavior of a relaxation oscillator, where the oscillation frequency depends on the time constant \( RC \).
 
+`'
 \section*{Lab 9: Operational Amplifiers III}
 
 \end{document}
