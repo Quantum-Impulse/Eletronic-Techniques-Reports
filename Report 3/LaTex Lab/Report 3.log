@@ -323,4 +323,418 @@ LaTeX Font Info:    ... okay on input line 13.
 \MPscratchCnt=\count313
 \MPscratchDim=\dimen173
 \MPnumerator=\count314
-\makeMPintoPDFobj
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks27
+) (/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 13.
+Package hyperref Info: Link coloring OFF on input line 13.
+\@outlinefile=\write3
+\openout3 = `"Report 3.out"'.
+
+<img/Lab 7/1_1.png, id=3, 577.15625pt x 379.4175pt>
+File: img/Lab 7/1_1.png Graphic file (type png)
+<use img/Lab 7/1_1.png>
+Package pdftex.def Info: img/Lab 7/1_1.png  used on input line 31.
+(pdftex.def)             Requested size: 276.00105pt x 181.44675pt.
+
+
+[1
+
+{/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./img/Lab 7/1_1.png>]
+<img/Lab 7/1_2.png, id=23, 962.59625pt x 579.16376pt>
+File: img/Lab 7/1_2.png Graphic file (type png)
+<use img/Lab 7/1_2.png>
+Package pdftex.def Info: img/Lab 7/1_2.png  used on input line 43.
+(pdftex.def)             Requested size: 276.00105pt x 166.05316pt.
+<img/Lab 7/1_3.png, id=24, 962.59625pt x 579.16376pt>
+File: img/Lab 7/1_3.png Graphic file (type png)
+<use img/Lab 7/1_3.png>
+Package pdftex.def Info: img/Lab 7/1_3.png  used on input line 49.
+(pdftex.def)             Requested size: 276.00105pt x 166.05316pt.
+<img/Lab 7/1_4.png, id=25, 962.59625pt x 579.16376pt>
+File: img/Lab 7/1_4.png Graphic file (type png)
+<use img/Lab 7/1_4.png>
+Package pdftex.def Info: img/Lab 7/1_4.png  used on input line 55.
+(pdftex.def)             Requested size: 276.00105pt x 166.05316pt.
+
+
+[2 <./img/Lab 7/1_2.png> <./img/Lab 7/1_3.png>]
+<img/Lab 7/1_5.png, id=34, 962.59625pt x 579.16376pt>
+File: img/Lab 7/1_5.png Graphic file (type png)
+<use img/Lab 7/1_5.png>
+Package pdftex.def Info: img/Lab 7/1_5.png  used on input line 61.
+(pdftex.def)             Requested size: 276.00105pt x 166.05316pt.
+<img/Lab 7/1_6.png, id=35, 943.525pt x 561.09625pt>
+File: img/Lab 7/1_6.png Graphic file (type png)
+<use img/Lab 7/1_6.png>
+Package pdftex.def Info: img/Lab 7/1_6.png  used on input line 70.
+(pdftex.def)             Requested size: 276.00105pt x 164.13496pt.
+
+
+[3 <./img/Lab 7/1_4.png> <./img/Lab 7/1_5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--82
+
+ []
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:101: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:102: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[4 <./img/Lab 7/1_6.png>]
+<img/Lab 7/2_2.png, id=52, 615.0177pt x 398.56905pt>
+File: img/Lab 7/2_2.png Graphic file (type png)
+<use img/Lab 7/2_2.png>
+Package pdftex.def Info: img/Lab 7/2_2.png  used on input line 121.
+(pdftex.def)             Requested size: 276.00105pt x 178.86787pt.
+
+Overfull \hbox (0.88202pt too wide) in paragraph at lines 129--134
+[]\OT1/cmr/bx/n/10 Gain = 10: \OT1/cmr/m/n/10 The gain remains relatively stable across the lower frequencies
+ []
+
+
+
+[5 <./img/Lab 7/2_2.png>]
+<img/Lab 7/4_1.png, id=62, 680.5425pt x 504.88625pt>
+File: img/Lab 7/4_1.png Graphic file (type png)
+<use img/Lab 7/4_1.png>
+Package pdftex.def Info: img/Lab 7/4_1.png  used on input line 176.
+(pdftex.def)             Requested size: 276.00105pt x 204.76285pt.
+
+
+[6]
+
+[7 <./img/Lab 7/4_1.png>]
+<img/Lab 7/b_1.png, id=84, 1000.73875pt x 597.23125pt>
+File: img/Lab 7/b_1.png Graphic file (type png)
+<use img/Lab 7/b_1.png>
+Package pdftex.def Info: img/Lab 7/b_1.png  used on input line 260.
+(pdftex.def)             Requested size: 276.00105pt x 164.71753pt.
+
+
+[8]
+<img/Lab 7/b_2.png, id=90, 1000.73875pt x 597.23125pt>
+File: img/Lab 7/b_2.png Graphic file (type png)
+<use img/Lab 7/b_2.png>
+Package pdftex.def Info: img/Lab 7/b_2.png  used on input line 266.
+(pdftex.def)             Requested size: 276.00105pt x 164.71753pt.
+<img/Lab 7/b_3.png, id=91, 1000.73875pt x 597.23125pt>
+File: img/Lab 7/b_3.png Graphic file (type png)
+<use img/Lab 7/b_3.png>
+Package pdftex.def Info: img/Lab 7/b_3.png  used on input line 272.
+(pdftex.def)             Requested size: 276.00105pt x 164.71753pt.
+
+
+[9 <./img/Lab 7/b_1.png> <./img/Lab 7/b_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 277--281
+
+ []
+
+
+Overfull \hbox (2.57951pt too wide) in paragraph at lines 295--299
+\OT1/cmr/m/n/10 resistance $\OML/cmm/m/it/10 R[]$\OT1/cmr/m/n/10 , and determine the frequency range over which the circuit produces
+ []
+
+
+Overfull \hbox (6.6394pt too wide) in paragraph at lines 300--304
+\OT1/cmr/m/n/10 - The output waveforms were observed at various frequencies using an oscilloscope. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--304
+
+ []
+
+<img/Lab 8/1_1.png, id=100, 477.785pt x 360.34625pt>
+File: img/Lab 8/1_1.png Graphic file (type png)
+<use img/Lab 8/1_1.png>
+Package pdftex.def Info: img/Lab 8/1_1.png  used on input line 307.
+(pdftex.def)             Requested size: 276.00105pt x 208.1597pt.
+
+
+[10 <./img/Lab 7/b_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 311--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--316
+
+ []
+
+<img/Lab 8/1_2.png, id=110, 1002.74625pt x 602.25pt>
+File: img/Lab 8/1_2.png Graphic file (type png)
+<use img/Lab 8/1_2.png>
+Package pdftex.def Info: img/Lab 8/1_2.png  used on input line 322.
+(pdftex.def)             Requested size: 276.00105pt x 165.76169pt.
+<img/Lab 8/1_3.png, id=111, 1002.74625pt x 602.25pt>
+File: img/Lab 8/1_3.png Graphic file (type png)
+<use img/Lab 8/1_3.png>
+Package pdftex.def Info: img/Lab 8/1_3.png  used on input line 328.
+(pdftex.def)             Requested size: 276.00105pt x 165.76169pt.
+
+
+[11 <./img/Lab 8/1_1.png> <./img/Lab 8/1_2.png>]
+<img/Lab 8/1_4.png, id=120, 1002.74625pt x 602.25pt>
+File: img/Lab 8/1_4.png Graphic file (type png)
+<use img/Lab 8/1_4.png>
+Package pdftex.def Info: img/Lab 8/1_4.png  used on input line 334.
+(pdftex.def)             Requested size: 276.00105pt x 165.76169pt.
+<img/Lab 8/1_5.png, id=121, 1013.7875pt x 626.34pt>
+File: img/Lab 8/1_5.png Graphic file (type png)
+<use img/Lab 8/1_5.png>
+Package pdftex.def Info: img/Lab 8/1_5.png  used on input line 340.
+(pdftex.def)             Requested size: 276.00105pt x 170.51895pt.
+
+
+[12 <./img/Lab 8/1_3.png> <./img/Lab 8/1_4.png>]
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:344: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.344 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:345: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.345 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[13 <./img/Lab 8/1_5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 399--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--406
+
+ []
+
+<img/Lab 8/3_1.png, id=141, 653.44125pt x 368.37625pt>
+File: img/Lab 8/3_1.png Graphic file (type png)
+<use img/Lab 8/3_1.png>
+Package pdftex.def Info: img/Lab 8/3_1.png  used on input line 409.
+(pdftex.def)             Requested size: 276.00105pt x 155.59383pt.
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:413: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.413 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<img/Lab 8/3_2.png, id=142, 1536.74126pt x 460.72125pt>
+File: img/Lab 8/3_2.png Graphic file (type png)
+<use img/Lab 8/3_2.png>
+Package pdftex.def Info: img/Lab 8/3_2.png  used on input line 423.
+(pdftex.def)             Requested size: 276.00105pt x 82.74345pt.
+
+
+[14 <./img/Lab 8/3_1.png>]
+<img/Lab 8/3_3.png, id=150, 1536.74126pt x 460.72125pt>
+File: img/Lab 8/3_3.png Graphic file (type png)
+<use img/Lab 8/3_3.png>
+Package pdftex.def Info: img/Lab 8/3_3.png  used on input line 429.
+(pdftex.def)             Requested size: 276.00105pt x 82.74345pt.
+<img/Lab 8/3_4.png, id=151, 1536.74126pt x 460.72125pt>
+File: img/Lab 8/3_4.png Graphic file (type png)
+<use img/Lab 8/3_4.png>
+Package pdftex.def Info: img/Lab 8/3_4.png  used on input line 435.
+(pdftex.def)             Requested size: 276.00105pt x 82.74345pt.
+<img/Lab 8/3_5.png, id=152, 1536.74126pt x 460.72125pt>
+File: img/Lab 8/3_5.png Graphic file (type png)
+<use img/Lab 8/3_5.png>
+Package pdftex.def Info: img/Lab 8/3_5.png  used on input line 441.
+(pdftex.def)             Requested size: 276.00105pt x 82.74345pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--453
+
+ []
+
+
+
+[15 <./img/Lab 8/3_2.png> <./img/Lab 8/3_3.png> <./img/Lab 8/3_4.png> <./img/Lab 8/3_5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 454--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--467
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--472
+
+ []
+
+<img/Lab 8/noR_High.JPG, id=166, 803.0pt x 481.8pt>
+File: img/Lab 8/noR_High.JPG Graphic file (type jpg)
+<use img/Lab 8/noR_High.JPG>
+Package pdftex.def Info: img/Lab 8/noR_High.JPG  used on input line 493.
+(pdftex.def)             Requested size: 276.00105pt x 165.60364pt.
+
+
+[16]
+<img/Lab 8/noR_Low.JPG, id=172, 803.0pt x 481.8pt>
+File: img/Lab 8/noR_Low.JPG Graphic file (type jpg)
+<use img/Lab 8/noR_Low.JPG>
+Package pdftex.def Info: img/Lab 8/noR_Low.JPG  used on input line 499.
+(pdftex.def)             Requested size: 276.00105pt x 165.60364pt.
+<img/Lab 8/R_High.JPG, id=173, 803.0pt x 481.8pt>
+File: img/Lab 8/R_High.JPG Graphic file (type jpg)
+<use img/Lab 8/R_High.JPG>
+Package pdftex.def Info: img/Lab 8/R_High.JPG  used on input line 505.
+(pdftex.def)             Requested size: 276.00105pt x 165.60364pt.
+
+
+[17 <./img/Lab 8/noR_High.JPG> <./img/Lab 8/noR_Low.JPG>]
+<img/Lab 8/R_Low.JPG, id=180, 803.0pt x 481.8pt>
+File: img/Lab 8/R_Low.JPG Graphic file (type jpg)
+<use img/Lab 8/R_Low.JPG>
+Package pdftex.def Info: img/Lab 8/R_Low.JPG  used on input line 511.
+(pdftex.def)             Requested size: 276.00105pt x 165.60364pt.
+
+
+[18 <./img/Lab 8/R_High.JPG> <./img/Lab 8/R_Low.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 541--547
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--547
+
+ []
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 3/LaTex Lab/Report 3.tex:549: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.549 T
+       his behavior shows that the hysteresis curve depends on the input sig...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<img/Lab 8/5_1.JPG, id=188, 803.0pt x 481.8pt>
+File: img/Lab 8/5_1.JPG Graphic file (type jpg)
+<use img/Lab 8/5_1.JPG>
+Package pdftex.def Info: img/Lab 8/5_1.JPG  used on input line 553.
+(pdftex.def)             Requested size: 276.00105pt x 165.60364pt.
+
+
+[19]
+<img/Lab 8/5_2.JPG, id=195, 803.0pt x 481.8pt>
+File: img/Lab 8/5_2.JPG Graphic file (type jpg)
+<use img/Lab 8/5_2.JPG>
+Package pdftex.def Info: img/Lab 8/5_2.JPG  used on input line 559.
+(pdftex.def)             Requested size: 276.00105pt x 165.60364pt.
+
+
+[20 <./img/Lab 8/5_1.JPG> <./img/Lab 8/5_2.JPG>]
+Overfull \hbox (6.12546pt too wide) in paragraph at lines 601--602
+\OT1/cmr/m/n/10 occurs at $\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 89 []$, which aligns closely with our measured minimum threshold
+ []
+
+
+Overfull \hbox (2.2229pt too wide) in paragraph at lines 605--606
+\OT1/cmr/m/n/10 stabilizes the circuit by preventing rapid toggling due to minor input fluctuations. 
+ []
+
+
+
+[21]
+
+[22] (Report 3.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+ ***********
+
+
+Package rerunfilecheck Warning: File `"Report 3".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Report 3".out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 14637 strings out of 475833
+ 297641 string characters out of 2775517
+ 642352 words of memory out of 3000000
+ 37072 multiletter control sequences out of 15000+600000
+ 564406 words of font info for 58 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 75i,13n,80p,577b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Report 3.pdf" (22 pages, 11552554 bytes).
+PDF statistics:
+ 296 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+
