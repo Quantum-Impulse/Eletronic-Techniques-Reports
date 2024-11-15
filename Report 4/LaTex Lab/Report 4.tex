@@ -337,5 +337,200 @@
     This configuration leverages the complementary action of P-channel and N-channel MOSFETs, which allows for efficient switching with minimal power consumption when idle. CMOS technology provides good noise margins and low power dissipation, making it ideal for digital logic circuits. This experiment demonstrates that the CD4007 can be effectively used to create basic logic gates like the NAND gate.
 
 \section*{Lab 11: Digital Circuits II}
+
+    \subsection*{Objective}
+    The objective of Lab 11 was to explore sequential logic circuits by constructing basic flip-flop circuits using NAND gates. We verified the functionality of the R (Reset) and S (Set) inputs in a simple flip-flop configuration, and added clock control to the flip-flop to create a clocked sequential circuit.
+
+    \subsection*{\textbf{Procedure - Question 1: Basic RS Flip-Flop}}
+    In Question 1, we used two NAND gates from a single chip (either CMOS or TTL) to build the simplest example of a sequential logic circuit, an \textbf{RS flip-flop}. This circuit has two inputs: \textbf{S} (Set) and \textbf{R} (Reset). The outputs, labeled \textbf{Q} and \textbf{\(\overline{Q}\)}, hold their states even when the inputs are removed, demonstrating basic memory functionality.
+
+    \textbf{1. Circuit Setup:}
+    - We connected two NAND gates as shown in Figure 1. The output of the first NAND gate (IC1) is connected to one input of the second NAND gate (IC2), and vice versa, creating a feedback loop.
+    \\
+    - The \textbf{S} input is connected to the remaining input of IC1, while the \textbf{R} input is connected to the remaining input of IC2.
+    \\
+    - The \textbf{Q} output is taken from IC1, and the \textbf{\(\overline{Q}\)} output is taken from IC2.
+    \\
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{./img/Lab 11/11_1_1.png} 
+        \caption{RS Flip-Flop using two NAND gates}
+        \label{fig:RS_FlipFlop}
+    \end{figure}
+
+    \textbf{2. Testing Procedure:}
+    - We tested the circuit by applying different combinations of high (1) and low (0) signals to the \textbf{S} and \textbf{R} inputs.
+    \\
+    - For each combination, we observed and recorded the state of \textbf{Q} and \textbf{\(\overline{Q}\)}.
+    \\
+
+    \subsection*{\textbf{Results - Question 1}}
+    The following table shows the expected output states for the RS flip-flop: \\
+
+    \begin{table}[H]
+        \centering
+        \caption{Truth Table for RS Flip-Flop}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            S & R & Q & \(\overline{Q}\) \\
+            \hline
+            0 & 0 & Previous State & Previous State \\
+            0 & 1 & 0 & 1 \\
+            1 & 0 & 1 & 0 \\
+            1 & 1 & Undefined & Undefined \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \subsection*{\textbf{Discussion - Question 1}}
+    The RS flip-flop operated as expected:
+    - When \textbf{S = 1} and \textbf{R = 0}, the output \textbf{Q} is set to 1, and \textbf{\(\overline{Q}\)} is set to 0.
+    \\
+    - When \textbf{S = 0} and \textbf{R = 1}, the output \textbf{Q} is reset to 0, and \textbf{\(\overline{Q}\)} is set to 1.
+    \\
+    - When both \textbf{S} and \textbf{R} are 0, the flip-flop holds its previous state.
+    \\
+    - When both \textbf{S} and \textbf{R} are 1, the outputs are undefined, as this is an invalid state for an RS flip-flop.
+    \\
+
+    This basic configuration demonstrates how a flip-flop circuit can store information, maintaining its output state even when the inputs change back to 0.
+
+    \subsection*{\textbf{Procedure - Question 2: Clocked RS Flip-Flop}}
+    In Question 2, we extended the RS flip-flop circuit by adding two additional NAND gates to introduce clock control, resulting in a \textbf{clocked RS flip-flop}. The clock input determines when the state of the flip-flop can change, making it a more controlled sequential logic circuit.
+
+    \textbf{1. Circuit Setup:}
+    - We connected four NAND gates as shown in Figure 2. IC1 and IC2 are configured as in the previous RS flip-flop circuit, while IC3 and IC4 add the clock control.
+    \\
+    - The \textbf{S} and \textbf{R} inputs are connected to IC1 and IC2, respectively, while a clock input (active-low) is connected to the remaining inputs of IC1 and IC2.
+    \\
+    - The output \textbf{Q} is taken from IC3, and \textbf{\(\overline{Q}\)} is taken from IC4.
+    \\
+
+    \textbf{2. Testing Procedure:}
+    - We applied different combinations of \textbf{S}, \textbf{R}, and \textbf{Clock} signals to verify the circuit’s behavior.
+    \\
+    - We observed whether the clock input effectively controlled the \textbf{Q} output, allowing it to change states only when the clock was active (low).
+    \\
+
+    \subsection*{\textbf{Results - Question 2}}
+    The table below summarizes the expected output states for the clocked RS flip-flop: \\ 
+
+    \begin{table}[H]
+        \centering
+        \caption{Truth Table for Clocked RS Flip-Flop}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            Clock & S & R & Q & \(\overline{Q}\) \\
+            \hline
+            0 & 0 & 0 & Previous State & Previous State \\
+            0 & 0 & 1 & 0 & 1 \\
+            0 & 1 & 0 & 1 & 0 \\
+            1 & X & X & Previous State & Previous State \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \subsection*{\textbf{Discussion - Question 2}}
+    The clocked RS flip-flop successfully controlled the output based on the clock input: \\ 
+    - When the clock was low, the circuit operated similarly to the basic RS flip-flop, allowing the \textbf{Q} output to be set or reset based on the \textbf{S} and \textbf{R} inputs.
+    \\
+    - When the clock was high, the flip-flop maintained its previous state, regardless of changes to \textbf{S} and \textbf{R}. This behavior illustrates the use of a clock input to control when the flip-flop can change states, which is essential in sequential circuits where timing is important.
+    \\
+
+    The addition of the clock input allows this circuit to function as a more controlled sequential logic element, only updating the output state when the clock is active. This setup is commonly used in digital systems where synchronization with a timing signal is necessary.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{./img/Lab 11/11_2_1.png}  % 
+        \caption{Oscilloscope Trace for D Flip-Flop with Positive Edge-Triggered Clock}
+        \label{fig:D_FlipFlop_Oscilloscope}
+    \end{figure}
+    
+    \subsection*{\textbf{Procedure - Question 3: Initial Setup of the D Flip-Flop}}
+    In Question 3, we used the SN74HCT74N D Flip-Flop, which includes two positive edge-triggered D flip-flops with SET (Preset) and RESET (Clear) inputs. We configured the circuit as follows:
+
+    \textbf{1. Circuit Setup:}
+    - We connected the \textbf{SET} (Preset) and \textbf{RESET} (Clear) pins to \textbf{high} (+5V) to disable them, ensuring that the flip-flop would respond only to the \textbf{D} and \textbf{Clock} inputs.
+    \\
+    - We used only one flip-flop from the SN74HCT74N, leaving the inputs of the second flip-flop tied to ground to avoid floating states.
+    \\
+
+    \textbf{2. Pin Connections:}
+    - \textbf{D input (Pin 2):} Connected to a slide switch to control the data input.
+    \\
+    - \textbf{Clock input (Pin 3):} Connected to a debounced pushbutton switch, allowing us to manually control the clock pulses.
+    \\
+    - \textbf{Q output (Pin 5)} and \(\overline{\textbf{Q}}\) output (Pin 6): Observed on the oscilloscope to monitor the flip-flop’s response.
+    \\
+
+    \subsection*{\textbf{Procedure - Question 4: Testing the D Flip-Flop Operation}}
+    In Question 4, we tested the D Flip-Flop by:
+    - Setting the D input using the slide switch.
+    \\
+    - Triggering the clock input using the pushbutton switch to produce a positive edge.
+    \\
+    - Observing the behavior of the Q output on the oscilloscope, verifying that the Q output followed the D input only when the clock transitioned from low to high (positive edge-triggered).
+    \\
+
+    \textbf{Expected Behavior:}
+    - When the clock input receives a rising edge (0 to 1 transition), the Q output takes on the value of the D input.
+    \\
+    - If the D input is high (1) at the clock’s rising edge, Q will be set to high (1). If the D input is low (0), Q will be set to low (0).
+    \\
+    - Between clock pulses, the Q output holds its state, providing a memory function.
+    \\
+    - Activating the SET (Preset) or RESET (Clear) inputs would override the D and Clock inputs, forcing Q to 1 or 0, respectively, but these inputs were held high in this experiment.
+    \\
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./img/Lab 11/11_3_1.png}  % 
+        \caption{Oscilloscope Trace for D Flip-Flop with Positive Edge-Triggered Clock, Clock Trace}
+        \label{fig:D_FlipFlop_Oscilloscope_1}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./img/Lab 11/11_3_2.png}  % 
+        \caption{Oscilloscope Trace for D Flip-Flop with Positive Edge-Triggered Clock, D Input Trace}
+        \label{fig:D_FlipFlop_Oscilloscope_2}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./img/Lab 11/11_3_3.png}  % 
+        \caption{Oscilloscope Trace for D Flip-Flop with Positive Edge-Triggered Clock, Q Output Trace}
+        \label{fig:D_FlipFlop_Oscilloscope_3}
+    \end{figure}
+
+    \subsection*{\textbf{Results - Questions 3 and 4}}
+    The table below summarizes the expected behavior of the D Flip-Flop based on the D and Clock inputs:
+
+    \begin{table}[H]
+        \centering
+        \caption{Expected Behavior of Positive Edge-Triggered D Flip-Flop}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            D Input & Clock (Rising Edge) & Q Output & \(\overline{Q}\) Output \\
+            \hline
+            0 & ↑ & 0 & 1 \\
+            1 & ↑ & 1 & 0 \\
+            X & 0 & Previous State & Complement of Q \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \subsection*{\textbf{Discussion - Questions 3 and 4}}
+    The SN74HCT74N D Flip-Flop responded as expected:
+    - The Q output only changed state on the rising edge of the clock, assuming the value of the D input at that moment.
+    \\
+    - Between clock pulses, the Q output maintained its previous state, illustrating the memory behavior of the flip-flop.
+    \\
+    - This setup demonstrates the utility of a D Flip-Flop for storing a bit of information that updates only in response to a clock signal, a fundamental function in digital circuits.
+    \\
+
+    The oscilloscope trace (Figure \ref{fig:D_FlipFlop_Oscilloscope}) shows the timing relationship between the Clock, D input, and Q output, confirming the edge-triggered behavior of the flip-flop.
+
   
 \end{document}

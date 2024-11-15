@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  15 NOV 2024 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  15 NOV 2024 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -524,8 +524,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--336
 
 
 [10 <./img/Lab 10/10_7_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 347--354
 
-[11] (Report 4.aux)
+ []
+
+<./img/Lab 11/11_1_1.png, id=97, 559.08875pt x 279.0425pt>
+File: ./img/Lab 11/11_1_1.png Graphic file (type png)
+<use ./img/Lab 11/11_1_1.png>
+Package pdftex.def Info: ./img/Lab 11/11_1_1.png  used on input line 357.
+(pdftex.def)             Requested size: 172.5pt x 86.09352pt.
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 362--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--396
+
+ []
+
+
+Overfull \hbox (22.08398pt too wide) in paragraph at lines 397--398
+[]\OT1/cmr/m/n/10 This basic configuration demonstrates how a flip-flop circuit can store information,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--409
+
+ []
+
+
+
+[12 <./img/Lab 11/11_1_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 410--415
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--440
+
+ []
+
+
+Overfull \hbox (18.24135pt too wide) in paragraph at lines 441--442
+\OT1/cmr/m/n/10 clock is active. This setup is commonly used in digital systems where synchronization
+ []
+
+<./img/Lab 11/11_2_1.png, id=116, 752.8125pt x 404.51125pt>
+File: ./img/Lab 11/11_2_1.png Graphic file (type png)
+<use ./img/Lab 11/11_2_1.png>
+Package pdftex.def Info: ./img/Lab 11/11_2_1.png  used on input line 445.
+(pdftex.def)             Requested size: 172.5pt x 92.68997pt.
+
+
+[13]
+Overfull \hbox (2.83061pt too wide) in paragraph at lines 451--452
+\OT1/cmr/m/n/10 positive edge-triggered D flip-flops with SET (Preset) and RESET (Clear) inputs.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--466
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--485
+
+ []
+
+
+
+[14 <./img/Lab 11/11_2_1.png>]
+<./img/Lab 11/11_3_1.png, id=133, 618.6312pt x 171.2799pt>
+File: ./img/Lab 11/11_3_1.png Graphic file (type png)
+<use ./img/Lab 11/11_3_1.png>
+Package pdftex.def Info: ./img/Lab 11/11_3_1.png  used on input line 488.
+(pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
+<./img/Lab 11/11_3_2.png, id=134, 618.6312pt x 171.2799pt>
+File: ./img/Lab 11/11_3_2.png Graphic file (type png)
+<use ./img/Lab 11/11_3_2.png>
+Package pdftex.def Info: ./img/Lab 11/11_3_2.png  used on input line 495.
+(pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
+<./img/Lab 11/11_3_3.png, id=135, 618.6312pt x 171.2799pt>
+File: ./img/Lab 11/11_3_3.png Graphic file (type png)
+<use ./img/Lab 11/11_3_3.png>
+Package pdftex.def Info: ./img/Lab 11/11_3_3.png  used on input line 502.
+(pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
+
+
+[15 <./img/Lab 11/11_3_1.png> <./img/Lab 11/11_3_2.png> <./img/Lab 11/11_3_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 525--532
+
+ []
+
+
+
+[16] (Report 4.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -538,17 +654,17 @@ Package rerunfilecheck Info: File `"Report 4".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14462 strings out of 475833
- 294186 string characters out of 2775517
- 640776 words of memory out of 3000000
- 36927 multiletter control sequences out of 15000+600000
- 563787 words of font info for 56 fonts, out of 8000000 for 9000
+ 14531 strings out of 475833
+ 295712 string characters out of 2775517
+ 641291 words of memory out of 3000000
+ 36970 multiletter control sequences out of 15000+600000
+ 564406 words of font info for 58 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,8n,80p,744b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Report 4.pdf" (11 pages, 303156 bytes).
+ 75i,10n,80p,744b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "Report 4.pdf" (16 pages, 428400 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
