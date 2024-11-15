@@ -1,8 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1731705074.84281 "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 4/LaTex Lab/Report 4.tex" "Report 4.pdf" "Report 4" 1731705075.87122 0
-  "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 4/LaTex Lab/Report 4.tex" 1731705073.14332 15931 8caa187269b89bd2cdffb74387ad6c17 ""
+["pdflatex"] 1731712569.14751 "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 4/LaTex Lab/Report 4.tex" "Report 4.pdf" "Report 4" 1731712570.25261 0
+  "/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 4/LaTex Lab/Report 4.tex" 1731712568.49323 18450 09991031033530f1529998f0112297d8 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1726529996.36837 25678 aa7c8fd3909e804e7d85441c21595406 ""
+  "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1726537808.67697 11548 b101187c2ab8a47c6f9f0b6787b527f5 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1726529943.65786 8733517 1da6dbae8d83d2543fb040d0b7350f5c ""
+  "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1726514623.21419 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1726514607.29738 1004 54797486969f23fa377b128694d548df ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1726514607.29747 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm" 1726514379.26452 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -78,14 +80,15 @@
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1726529955.47688 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/translations.sty" 1726529955.48084 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1726529987.55577 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Report 4.aux" 1731705075.748 2096 2c2b263d523ef7388146791a9e2e6561 "pdflatex"
-  "Report 4.out" 1731705075.43156 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Report 4.tex" 1731705073.14332 15931 8caa187269b89bd2cdffb74387ad6c17 ""
+  "Report 4.aux" 1731712570.12923 2382 7c0a215af85222075a3725c04d78f157 "pdflatex"
+  "Report 4.out" 1731712569.72331 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Report 4.tex" 1731712568.49323 18450 09991031033530f1529998f0112297d8 ""
   "img/Lab 10/10_1_1.png" 1731683919.7433 19602 7ea6812a416f3ad48616b6c97c7f053b ""
   "img/Lab 10/10_2_1.png" 1731689370.70819 41642 1a015173674bbe426a5242cac1bb6ce6 ""
   "img/Lab 10/10_3_1.png" 1731689478.64476 44083 caec83ea6bb9d04a9435139f050f0b35 ""
   "img/Lab 10/10_5_1.png" 1731703978.40313 76352 1b19a1121fef9d152720da84c6ee8230 ""
   "img/Lab 10/10_6_1.png" 1731704825.8724 84384 516788f971eb722fff62157bf637f85e ""
+  "img/Lab 10/10_7_1.png" 1731708192.55195 80717 5a3483a724c7c040319ddf60c9601738 ""
   (generated)
   "Report 4.aux"
   "Report 4.log"

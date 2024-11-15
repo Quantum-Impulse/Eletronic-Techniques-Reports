@@ -95,8 +95,8 @@
     \\
 
    \subsection*{\textbf{Procedure - Question 2}}
-   In Question 2, we used multiple NAND gates to construct an **AND gate**. By configuring NAND gates in a specific arrangement, we replicated the behavior of a standard AND gate.
-   
+   In Question 2, we used multiple NAND gates to construct an \textbf{AND gate}. By configuring NAND gates in a specific arrangement, we replicated the behavior of a standard AND gate.
+
    \textbf{1. Circuit Setup:}
       - We used the TTL (7400N) and CMOS (74HCT00N) ICs, each containing multiple NAND gates.
       \\
@@ -150,7 +150,7 @@
    The results confirmed that the arrangement of NAND gates successfully produced an AND gate. The output matched the expected truth table for an AND gate, outputting 1 only when both inputs were 1. This demonstrates that NAND gates can be used to create other basic gates, such as AND.
    
    \subsection*{\textbf{Procedure - Question 3}}
-   In Question 3, we used multiple NAND gates to construct an **OR gate**. This required additional configuration, as NAND gates inherently perform a different operation.
+   In Question 3, we used multiple NAND gates to construct an \textbf{OR gate}. This required additional configuration, as NAND gates inherently perform a different operation.
    
    \textbf{1. Circuit Setup:}
       - We used the TTL (7400N) and CMOS (74HCT00N) ICs to build the OR gate circuit with NAND gates.
@@ -273,25 +273,45 @@
     \subsection*{\textbf{Question 6 - Discussion}}
     The active pullup inverter is more effective at handling high-frequency signals than the passive pullup configuration. The complementary configuration of N-channel and P-channel FETs allows for faster transitions, as each transistor actively pulls the output to the desired level, reducing the impact of capacitance.
 
-    \subsection*{\textbf{Procedure - Question 7: NAND Gate}}
-    In Question 7, we used the FETs within the CD4007 to construct a NAND gate.
-
-    \textbf{1. Circuit Construction:}
-       - Two N-channel and two P-channel FETs were arranged according to the NAND gate configuration.
-       \\
-       - The input signals were applied to the gates of the transistors, and the output was taken from the connection point between the P-channel and N-channel transistors.
-       \\
-
-    \textbf{2. Testing and Observations:}
-       - We tested all input combinations (A and B) and recorded the output for each case.
-       \\
-
+    \subsection*{\textbf{Procedure - Question 7: NAND Gate Using CD4007 MOS Transistor Array}}
+    In Question 7, we used the CD4007 MOS transistor array to construct a CMOS NAND gate using complementary MOSFETs. The CD4007 contains three N-channel and three P-channel MOSFETs, which can be configured to create various logic gates. We used two P-channel MOSFETs (for the pull-up network) and two N-channel MOSFETs (for the pull-down network) to form the NAND gate.
+    
+    \textbf{1. Pin Connections:}
+    
+    To replicate the CMOS NAND gate circuit, we used the following pin connections on the CD4007:
+    
+    \begin{itemize}
+        \item \textbf{Vdd (Pin 14):} Connect this pin to the positive supply voltage (+5V). This supplies power to the P-channel MOSFETs.
+        \item \textbf{GND (Pin 7):} Connect this pin to ground (0V), which serves as the ground for the N-channel MOSFETs.
+        \item \textbf{Input A (Pin 6):} Connect this pin to the gate of both Q1 (P-channel) and Q3 (N-channel).
+        \item \textbf{Input B (Pin 8):} Connect this pin to the gate of both Q2 (P-channel) and Q4 (N-channel).
+        \item \textbf{Output (Pin 3):} This pin serves as the output of the NAND gate. It is the common connection between the drains of Q1 and Q2 (connected to Vdd) and the drains of Q3 and Q4 (connected to ground).
+    \end{itemize}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{./img/Lab 10/10_7_1.png}  % Replace with actual image path
+        \caption{CMOS NAND Gate using CD4007 MOS Transistor Array}
+        \label{fig:CMOS_NAND_Gate}
+    \end{figure}
+    
+    \textbf{2. Operation of the CMOS NAND Gate:}
+    
+    The following describes the operation of the NAND gate based on the input combinations:
+    
+    \begin{itemize}
+        \item \textbf{Input A = 0, Input B = 0:} Q1 and Q2 (P-channel MOSFETs) are \textbf{ON}, connecting the output to Vdd, resulting in a high output (1).
+        \item \textbf{Input A = 0, Input B = 1:} Q1 remains \textbf{ON}, and Q4 is \textbf{OFF}, keeping the output high (1) through Q1.
+        \item \textbf{Input A = 1, Input B = 0:} Q2 remains \textbf{ON}, and Q3 is \textbf{OFF}, keeping the output high (1) through Q2.
+        \item \textbf{Input A = 1, Input B = 1:} Both Q1 and Q2 (P-channel MOSFETs) are \textbf{OFF}, while Q3 and Q4 (N-channel MOSFETs) are \textbf{ON}, creating a path to ground and resulting in a low output (0).
+    \end{itemize}
+    
     \subsection*{\textbf{Results - Question 7}}
-    The table below summarizes the expected output for the constructed NAND gate:
-
+    The truth table below summarizes the operation of the CMOS NAND gate circuit:
+    
     \begin{table}[H]
         \centering
-        \caption{Truth Table for NAND Gate}
+        \caption{Truth Table for CMOS NAND Gate}
         \begin{tabular}{|c|c|c|}
             \hline
             Input A & Input B & Output \\
@@ -303,11 +323,19 @@
             \hline
         \end{tabular}
     \end{table}
-
-    \subsection*{\textbf{Question 7 - Discussion}}
-    The constructed NAND gate behaved as expected, producing an output of 1 unless both inputs were 1, in which case the output was 0. This demonstrates that the complementary MOS transistors in the CD4007 can be used to build functional logic gates.
-      
     
+    \subsection*{\textbf{Question 7 - Discussion}}
+    The CMOS NAND gate operates as expected based on the complementary configuration of the transistors: \\ 
+    
+       - When both inputs are low (0), the P-channel transistors Q1 and Q2 conduct, pulling the output high.
+       \\
+       - If either input is low, at least one P-channel transistor is on, maintaining a high output.
+       \\
+       - When both inputs are high (1), the N-channel transistors Q3 and Q4 conduct, connecting the output to ground and resulting in a low output.
+       \\
+    
+    This configuration leverages the complementary action of P-channel and N-channel MOSFETs, which allows for efficient switching with minimal power consumption when idle. CMOS technology provides good noise margins and low power dissipation, making it ideal for digital logic circuits. This experiment demonstrates that the CD4007 can be effectively used to create basic logic gates like the NAND gate.
+
 \section*{Lab 11: Digital Circuits II}
   
 \end{document}
