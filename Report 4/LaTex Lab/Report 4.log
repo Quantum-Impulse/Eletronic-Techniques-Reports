@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  15 NOV 2024 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  15 NOV 2024 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -694,8 +694,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 588--591
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 598--603
 
-[18] (Report 4.aux)
+ []
+
+<./img/Lab 11/11_6_1.png, id=173, 470.75874pt x 236.885pt>
+File: ./img/Lab 11/11_6_1.png Graphic file (type png)
+<use ./img/Lab 11/11_6_1.png>
+Package pdftex.def Info: ./img/Lab 11/11_6_1.png  used on input line 606.
+(pdftex.def)             Requested size: 207.0021pt x 104.16466pt.
+
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 611--614
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--619
+
+ []
+
+<./img/Lab 11/11_6_2.png, id=179, 618.6312pt x 226.9278pt>
+File: ./img/Lab 11/11_6_2.png Graphic file (type png)
+<use ./img/Lab 11/11_6_2.png>
+Package pdftex.def Info: ./img/Lab 11/11_6_2.png  used on input line 622.
+(pdftex.def)             Requested size: 276.00105pt x 101.24397pt.
+<./img/Lab 11/11_6_3.png, id=180, 618.6312pt x 226.9278pt>
+File: ./img/Lab 11/11_6_3.png Graphic file (type png)
+<use ./img/Lab 11/11_6_3.png>
+Package pdftex.def Info: ./img/Lab 11/11_6_3.png  used on input line 629.
+(pdftex.def)             Requested size: 276.00105pt x 101.24397pt.
+
+
+[19 <./img/Lab 11/11_6_1.png> <./img/Lab 11/11_6_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 635--638
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--644
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--648
+
+ []
+
+
+
+[20 <./img/Lab 11/11_6_3.png>] (Report 4.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -708,17 +757,17 @@ Package rerunfilecheck Info: File `"Report 4".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14563 strings out of 475833
- 296509 string characters out of 2775517
- 641513 words of memory out of 3000000
- 36994 multiletter control sequences out of 15000+600000
+ 14595 strings out of 475833
+ 297301 string characters out of 2775517
+ 641736 words of memory out of 3000000
+ 37018 multiletter control sequences out of 15000+600000
  564406 words of font info for 58 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  75i,10n,80p,744b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Report 4.pdf" (18 pages, 471724 bytes).
+Output written on "Report 4.pdf" (20 pages, 531028 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

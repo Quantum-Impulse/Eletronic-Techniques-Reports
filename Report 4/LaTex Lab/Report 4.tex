@@ -290,7 +290,7 @@
     
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\textwidth]{./img/Lab 10/10_7_1.png}  % Replace with actual image path
+        \includegraphics[width=0.5\textwidth]{./img/Lab 10/10_7_1.png} 
         \caption{CMOS NAND Gate using CD4007 MOS Transistor Array}
         \label{fig:CMOS_NAND_Gate}
     \end{figure}
@@ -591,8 +591,66 @@
     
     This question illustrates the utility of feedback in creating toggle flip-flops, which are fundamental building blocks in counters and sequential digital logic circuits.
     
-    
+
+    \subsection*{\textbf{Procedure - Question 6: Cascaded D Flip-Flops}}
+    In Question 6, we cascaded two D Flip-Flops (U1 and U2) as shown in Figure 5. The Q output of the first flip-flop (U1) was connected to the Clock input of the second flip-flop (U2), forming a Ripple Counter.
+
+    \textbf{1. Circuit Setup:} \\
+    - Both flip-flops were part of the same SN74HCT74N IC, each with its \textbf{SET} and \textbf{RESET} inputs tied high (+5V) to disable them. \\
+    - The Clock input for the first flip-flop (U1) was driven by a function generator. \\
+    - The Q output of U1 was connected to the Clock input of the second flip-flop (U2). \\
+    - The D inputs of both flip-flops were connected to their respective Q outputs via feedback loops, ensuring toggling behavior. \\
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{./img/Lab 11/11_6_1.png} 
+        \caption{Cascaded D Flip-Flops with Feedback}
+        \label{fig:Cascaded_FlipFlops}
+    \end{figure}
+
+    \textbf{2. Testing Procedure:} \\
+    - The Clock signal for U1 was varied using a function generator, and the Q outputs of U1 and U2 were observed on the oscilloscope. \\
+    - The frequency of the Clock signal was increased to observe the behavior of the cascaded flip-flops at higher frequencies. \\
+
+    \subsection*{\textbf{Results - Question 6}}
+    The following behavior was observed: \\
+    - U1 toggled its Q output on every rising edge of the Clock signal, just as in Question 5. \\
+    - U2 toggled its Q output on every rising edge of U1’s Q output, effectively dividing the frequency of the Clock signal by 4. \\
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./img/Lab 11/11_6_2.png}  
+        \caption{Clock Signal and Q Output of U1 in Ripple Counter}
+        \label{fig:Clock_U1_Ripple}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./img/Lab 11/11_6_3.png} 
+        \caption{Q Outputs of U1 and U2 in Ripple Counter}
+        \label{fig:Q_Outputs_Ripple}
+    \end{figure}
+
+    \subsection*{\textbf{Discussion - Question 6}}
+    The Ripple Counter demonstrates how cascading D Flip-Flops can divide a clock frequency: \\
+    - The Q output of U1 acts as the Clock input for U2, effectively dividing the frequency of the original Clock signal. \\
+    - As a result, U1 toggles at half the frequency of the original Clock, and U2 toggles at half the frequency of U1, resulting in a division by 4 overall. \\
+
+    \textbf{Comparison to Previous Questions:} \\
+    - In Question 5, we observed a single flip-flop toggling on each clock pulse, creating a frequency division of 2. Cascading two flip-flops extends this concept to divide the frequency further. \\
+    - The timing diagrams show a clear progression: \\
+        - The Clock signal determines the toggling behavior of U1 (as in Question 5). \\
+        - U2 toggles at a lower frequency, emphasizing the cumulative delay introduced by cascading. \\
+
+    \textbf{Graph Analysis:} \\
+    - \textbf{Figure \ref{fig:Clock_U1_Ripple}:} Shows the Clock signal for U1 and its Q output, verifying the toggle behavior at half the clock frequency. \\
+    - \textbf{Figure \ref{fig:Q_Outputs_Ripple}:} Demonstrates the sequential toggling of U1 and U2, with U2 toggling at a frequency that is one-fourth of the original Clock signal. \\
+
+    The cascaded configuration highlights how propagation delays and sequential toggling behavior can be exploited to create frequency dividers and counters. This fundamental concept is widely used in digital design for timekeeping, division, and state counting.
+
 
     
+
+
   
 \end{document}
