@@ -648,6 +648,38 @@
 
     The cascaded configuration highlights how propagation delays and sequential toggling behavior can be exploited to create frequency dividers and counters. This fundamental concept is widely used in digital design for timekeeping, division, and state counting.
 
+    \subsection*{\textbf{Estimated Behavior - Questions 7 and 8}}
+
+    \textbf{Question 7: Cascading Four Flip-Flops with LEDs}
+    Since we didn't have enough time to 
+
+    In this configuration, the Q outputs of four flip-flops (U1, U2, U3, and U4) are connected to four LEDs. The LEDs represent a binary counter:
+
+    \textbf{Behavior:}
+    - Each flip-flop toggles at half the frequency of the previous one.
+    - The four LEDs display a binary counting sequence, progressing through states such as 0000, 0001, 0010, and so on.
+
+    \textbf{Interpretation of Output:}
+    - The LEDs visually represent the state of a 4-bit binary counter.
+    - This configuration demonstrates the cascading effect of flip-flops and their application in digital counting circuits.
+
+    \textbf{Question 8: Shift Register with Four Flip-Flops}
+
+    The shift register shifts data sequentially across the four flip-flops:
+
+    \textbf{Clock and Input Behavior:}
+    - The clock signal synchronizes the timing of data shifts.
+    - Data at the IN input is propagated through the flip-flops, appearing on the Q outputs of U1, U2, U3, and U4 sequentially.
+
+    \textbf{Expected Oscilloscope Observations:}
+    - The IN signal appears as a series of pulses, representing the data to be shifted.
+    - The Q outputs show the progression of this data through the register, with a one-clock-cycle delay for each flip-flop.
+
+    \textbf{Jitter Explanation:}
+    - Jitter, caused by propagation delays or noise, results in minor timing discrepancies between clock edges and data transitions.
+    - While not significant at low frequencies, jitter becomes more pronounced in high-speed systems.
+
+    This experiment showcases the practical applications of cascaded and sequential flip-flop configurations in digital systems.
 
     
 
