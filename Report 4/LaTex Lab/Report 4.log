@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  15 NOV 2024 20:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  15 NOV 2024 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,7 +290,11 @@ Package color Info: Driver file: pdftex.def on input line 149.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box66
-) (Report 4.aux)
+) (Report 4.aux
+
+LaTeX Warning: Label `fig:passive_pullup_inverter' multiply defined.
+
+)
 \openout1 = `"Report 4.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -338,6 +342,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 13.
 Package hyperref Info: Link coloring OFF on input line 13.
+ (Report 4.out) (Report 4.out)
 \@outlinefile=\write3
 \openout3 = `"Report 4.out"'.
 
@@ -383,10 +388,6 @@ Package pdftex.def Info: ./img/Lab 10/10_1_1.png  used on input line 79.
 
 
 [2]
-
-LaTeX Warning: Reference `fig:nand_truth_table' on page 3 undefined on input line 85.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 89--96
 
  []
@@ -408,7 +409,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--123
 
  []
 
-<./img/Lab 10/10_2_1.png, id=33, 1101.11375pt x 366.36874pt>
+<./img/Lab 10/10_2_1.png, id=34, 1101.11375pt x 366.36874pt>
 File: ./img/Lab 10/10_2_1.png Graphic file (type png)
 <use ./img/Lab 10/10_2_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_2_1.png  used on input line 144.
@@ -435,7 +436,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--178
 
  []
 
-<./img/Lab 10/10_3_1.png, id=42, 941.5175pt x 449.68pt>
+<./img/Lab 10/10_3_1.png, id=43, 941.5175pt x 449.68pt>
 File: ./img/Lab 10/10_3_1.png Graphic file (type png)
 <use ./img/Lab 10/10_3_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_3_1.png  used on input line 199.
@@ -462,7 +463,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--219
 
  []
 
-<./img/Lab 10/10_5_1.png, id=51, 682.55pt x 625.33624pt>
+<./img/Lab 10/10_5_1.png, id=52, 682.55pt x 625.33624pt>
 File: ./img/Lab 10/10_5_1.png Graphic file (type png)
 <use ./img/Lab 10/10_5_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_5_1.png  used on input line 225.
@@ -479,7 +480,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--241
 
  []
 
-<./img/Lab 10/10_6_1.png, id=61, 617.30624pt x 723.70375pt>
+<./img/Lab 10/10_6_1.png, id=62, 617.30624pt x 723.70375pt>
 File: ./img/Lab 10/10_6_1.png Graphic file (type png)
 <use ./img/Lab 10/10_6_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_6_1.png  used on input line 253.
@@ -503,7 +504,7 @@ Overfull \hbox (16.35944pt too wide) in paragraph at lines 281--282
 []\OT1/cmr/m/n/10 To replicate the CMOS NAND gate circuit, we used the following pin connections
  []
 
-<./img/Lab 10/10_7_1.png, id=79, 699.61375pt x 463.7325pt>
+<./img/Lab 10/10_7_1.png, id=80, 699.61375pt x 463.7325pt>
 File: ./img/Lab 10/10_7_1.png Graphic file (type png)
 <use ./img/Lab 10/10_7_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_7_1.png  used on input line 293.
@@ -527,7 +528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 350--357
 
  []
 
-<./img/Lab 11/11_1_1.png, id=96, 559.08875pt x 279.0425pt>
+<./img/Lab 11/11_1_1.png, id=97, 559.08875pt x 279.0425pt>
 File: ./img/Lab 11/11_1_1.png Graphic file (type png)
 <use ./img/Lab 11/11_1_1.png>
 Package pdftex.def Info: ./img/Lab 11/11_1_1.png  used on input line 360.
@@ -581,7 +582,7 @@ Overfull \hbox (18.24135pt too wide) in paragraph at lines 444--445
 \OT1/cmr/m/n/10 clock is active. This setup is commonly used in digital systems where synchronization
  []
 
-<./img/Lab 11/11_2_1.png, id=115, 752.8125pt x 404.51125pt>
+<./img/Lab 11/11_2_1.png, id=116, 752.8125pt x 404.51125pt>
 File: ./img/Lab 11/11_2_1.png Graphic file (type png)
 <use ./img/Lab 11/11_2_1.png>
 Package pdftex.def Info: ./img/Lab 11/11_2_1.png  used on input line 448.
@@ -616,17 +617,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 479--488
 
 
 [14 <./img/Lab 11/11_2_1.png>]
-<./img/Lab 11/11_3_1.png, id=132, 618.6312pt x 171.2799pt>
+<./img/Lab 11/11_3_1.png, id=133, 618.6312pt x 171.2799pt>
 File: ./img/Lab 11/11_3_1.png Graphic file (type png)
 <use ./img/Lab 11/11_3_1.png>
 Package pdftex.def Info: ./img/Lab 11/11_3_1.png  used on input line 491.
 (pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
-<./img/Lab 11/11_3_2.png, id=133, 618.6312pt x 171.2799pt>
+<./img/Lab 11/11_3_2.png, id=134, 618.6312pt x 171.2799pt>
 File: ./img/Lab 11/11_3_2.png Graphic file (type png)
 <use ./img/Lab 11/11_3_2.png>
 Package pdftex.def Info: ./img/Lab 11/11_3_2.png  used on input line 498.
 (pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
-<./img/Lab 11/11_3_3.png, id=134, 618.6312pt x 171.2799pt>
+<./img/Lab 11/11_3_3.png, id=135, 618.6312pt x 171.2799pt>
 File: ./img/Lab 11/11_3_3.png Graphic file (type png)
 <use ./img/Lab 11/11_3_3.png>
 Package pdftex.def Info: ./img/Lab 11/11_3_3.png  used on input line 505.
@@ -639,12 +640,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--535
  []
 
 
-LaTeX Warning: Reference `fig:D_FlipFlop_Oscilloscope_1' on page 16 undefined on input line 536.
-
-
-LaTeX Warning: Reference `fig:D_FlipFlop_Oscilloscope_3' on page 16 undefined on input line 536.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 542--547
 
  []
@@ -654,7 +649,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 548--551
 
  []
 
-<./img/Lab 11/11_5_1.png, id=146, 395.4775pt x 319.1925pt>
+<./img/Lab 11/11_5_1.png, id=149, 395.4775pt x 319.1925pt>
 File: ./img/Lab 11/11_5_1.png Graphic file (type png)
 <use ./img/Lab 11/11_5_1.png>
 Package pdftex.def Info: ./img/Lab 11/11_5_1.png  used on input line 554.
@@ -666,60 +661,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 560--563
 
  []
 
+<./img/Lab 11/11_5_2.png, id=157, 618.6312pt x 171.2799pt>
+File: ./img/Lab 11/11_5_2.png Graphic file (type png)
+<use ./img/Lab 11/11_5_2.png>
+Package pdftex.def Info: ./img/Lab 11/11_5_2.png  used on input line 566.
+(pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
+<./img/Lab 11/11_5_3.png, id=158, 618.6312pt x 171.2799pt>
+File: ./img/Lab 11/11_5_3.png Graphic file (type png)
+<use ./img/Lab 11/11_5_3.png>
+Package pdftex.def Info: ./img/Lab 11/11_5_3.png  used on input line 573.
+(pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
 
-/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 4/LaTex Lab/Report 4.tex:566: LaTeX Error: File `' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.566 ...  \includegraphics[width=0.5\textwidth]{}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--575
+Underfull \hbox (badness 10000) in paragraph at lines 579--582
 
  []
 
 
 
-[17 <./img/Lab 11/11_5_1.png>] (Report 4.aux)
+[17 <./img/Lab 11/11_5_1.png> <./img/Lab 11/11_5_2.png> <./img/Lab 11/11_5_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 583--587
+
+ []
+
+
+Overfull \hbox (2.4728pt too wide) in paragraph at lines 588--591
+\OT1/cmr/m/n/10 - In this setup, the propagation delay becomes evident at higher clock frequencies,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--591
+
+ []
+
+
+
+[18] (Report 4.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `"Report 4".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Report 4".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `"Report 4".out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14572 strings out of 475833
- 296142 string characters out of 2775517
- 640333 words of memory out of 3000000
- 37009 multiletter control sequences out of 15000+600000
+ 14563 strings out of 475833
+ 296509 string characters out of 2775517
+ 641513 words of memory out of 3000000
+ 36994 multiletter control sequences out of 15000+600000
  564406 words of font info for 58 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,10n,80p,749b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,10n,80p,744b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Report 4.pdf" (17 pages, 449855 bytes).
+Output written on "Report 4.pdf" (18 pages, 471724 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

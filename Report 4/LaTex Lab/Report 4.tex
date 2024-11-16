@@ -535,45 +535,63 @@
 
     The oscilloscope trace (Figure \ref{fig:D_FlipFlop_Oscilloscope_1} - \ref{fig:D_FlipFlop_Oscilloscope_3}) shows the timing relationship between the Clock, D input, and Q output, confirming the edge-triggered behavior of the flip-flop.
 
-
+    
     \subsection*{\textbf{Procedure - Question 5: D Flip-Flop with Feedback}}
     In Question 5, we connected the Q output of the D Flip-Flop (SN74HCT74N) back to its D input, creating a feedback loop as shown in Figure 4. This configuration allows the circuit to toggle its state on each clock pulse.
-
+    
     \textbf{1. Circuit Setup:} \\ 
-    - The \textbf{SET} (Preset) and \textbf{RESET} (Clear) inputs were tied to \textbf{high} (+5V) to disable them. \\
-    - The \textbf{D input (Pin 2)} was connected to the \textbf{Q output (Pin 5)} through a feedback wire.\\
-    - The \textbf{Clock input (Pin 3)} was connected to either a debounced pushbutton for manual control or a function generator for automatic clocking. \\
-    - The outputs, \textbf{Q (Pin 5)} and \textbf{\(\overline{Q}\) (Pin 6)}, were monitored on the oscilloscope. \\ 
-
-    \textbf{2. Testing Procedure:} \\ 
-    - Initially, the clock input was manually toggled using the pushbutton, and the Q output was observed to verify the toggling behavior. \\
-    - The clock input was then connected to a function generator, and the Q output was observed at increasing clock frequencies. The propagation delay was measured as the time difference between the rising edge of the clock and the change in the Q output. \\
-
+       - The \textbf{SET} (Preset) and \textbf{RESET} (Clear) inputs were tied to \textbf{high} (+5V) to disable them. \\
+       - The \textbf{D input (Pin 2)} was connected to the \textbf{Q output (Pin 5)} through a feedback wire. \\
+       - The \textbf{Clock input (Pin 3)} was connected to either a debounced pushbutton for manual control or a function generator for automatic clocking. \\
+       - The outputs, \textbf{Q (Pin 5)} and \textbf{\(\overline{Q}\) (Pin 6)}, were monitored on the oscilloscope. \\
+    
+    \textbf{2. Testing Procedure:} \\
+       - Initially, the clock input was manually toggled using the pushbutton, and the Q output was observed to verify the toggling behavior. \\ 
+       - The clock input was then connected to a function generator, and the Q output was observed at increasing clock frequencies. The propagation delay was measured as the time difference between the rising edge of the clock and the change in the Q output. \\
+    
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\textwidth]{./img/Lab 11/11_5_1.png}  % Replace with the feedback circuit image path
+        \includegraphics[width=0.5\textwidth]{./img/Lab 11/11_5_1.png}  
         \caption{D Flip-Flop with Feedback Connection}
         \label{fig:Feedback_Circuit}
     \end{figure}
-
+    
     \subsection*{\textbf{Results - Question 5}}
     The expected behavior of the D Flip-Flop with feedback is as follows: \\ 
-    - On each rising edge of the clock, the Q output toggles between 0 and 1. \\ 
-    - At higher clock frequencies, the propagation delay becomes more apparent, with the Q output transitioning slightly after the clock’s rising edge. \\ 
-
+       - On each rising edge of the clock, the Q output toggles between 0 and 1. \\
+       - At higher clock frequencies, the propagation delay becomes more apparent, with the Q output transitioning slightly after the clock’s rising edge. \\ 
+    
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\textwidth]{}  
-        \caption{Oscilloscope Trace Showing Clock Signal and Q Output with Feedback}
-        \label{fig:Oscilloscope_Feedback}
+        \includegraphics[width=0.8\textwidth]{./img/Lab 11/11_5_2.png}  
+        \caption{Clock Signal for D Flip-Flop with Feedback}
+        \label{fig:Clock_Signal_Feedback}
     \end{figure}
-
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./img/Lab 11/11_5_3.png}  %
+        \caption{Q Output Signal with Feedback for D Flip-Flop}
+        \label{fig:Q_Output_Feedback}
+    \end{figure}
+    
     \subsection*{\textbf{Discussion - Question 5}}
     The D Flip-Flop with feedback demonstrates the ability to toggle its state on each clock pulse: \\ 
-    - \textbf{Manual Clocking:} The Q output alternated between 0 and 1 with each press of the pushbutton. \\
-    - \textbf{Function Generator Clocking:} The circuit continued to toggle with each clock pulse. At higher clock frequencies, the propagation delay became evident, as the Q output lagged slightly behind the clock rising edge. \\
-
-    The propagation delay, measured on the oscilloscope, is a critical parameter in sequential circuits. It determines the maximum operating frequency of the flip-flop and is influenced by the feedback connection. This relevance highlights the importance of accounting for propagation delay when designing high-speed digital systems.
+       - \textbf{Manual Clocking:} The Q output alternated between 0 and 1 with each press of the pushbutton. \\
+       - \textbf{Function Generator Clocking:} The circuit continued to toggle with each clock pulse. At higher clock frequencies, the propagation delay became evident, as the Q output lagged slightly behind the clock rising edge. \\
+    
+    \textbf{Graph Analysis:} \\
+       - The \textbf{Clock Signal (Figure \ref{fig:Clock_Signal_Feedback})} shows the timing control of the circuit, with rising edges indicating the moments where the flip-flop evaluates its inputs. \\
+       - The \textbf{Q Output Signal (Figure \ref{fig:Q_Output_Feedback})} demonstrates toggling behavior, where the output alternates between high and low on each clock rising edge. This is due to the feedback loop that connects the Q output to the D input. \\ 
+       - Compared to earlier graphs, the Q output no longer depends on an external D input but autonomously toggles based on the feedback mechanism. \\
+    
+    \textbf{Relevance of Propagation Delay:} \\
+       - The propagation delay is the time between the rising edge of the Clock signal and the change in the Q output. This delay is critical in high-speed digital systems, as it determines the maximum operating frequency of the circuit. \\
+       - In this setup, the propagation delay becomes evident at higher clock frequencies, where the Q output may fail to toggle if the clock period is shorter than the delay. \\
+    
+    This question illustrates the utility of feedback in creating toggle flip-flops, which are fundamental building blocks in counters and sequential digital logic circuits.
+    
+    
 
     
   
