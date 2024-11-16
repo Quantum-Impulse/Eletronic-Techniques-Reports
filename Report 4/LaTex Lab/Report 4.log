@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  15 NOV 2024 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.16)  16 NOV 2024 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,11 +290,8 @@ Package color Info: Driver file: pdftex.def on input line 149.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box66
-) (Report 4.aux
-
-LaTeX Warning: Label `fig:passive_pullup_inverter' multiply defined.
-
 )
+No file "Report 4".aux.
 \openout1 = `"Report 4.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -315,7 +312,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
- (/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+(/Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
 \scratchdimen=\dimen172
@@ -342,7 +339,6 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 13.
 Package hyperref Info: Link coloring OFF on input line 13.
- (Report 4.out) (Report 4.out)
 \@outlinefile=\write3
 \openout3 = `"Report 4.out"'.
 
@@ -388,6 +384,10 @@ Package pdftex.def Info: ./img/Lab 10/10_1_1.png  used on input line 79.
 
 
 [2]
+
+LaTeX Warning: Reference `fig:nand_truth_table' on page 3 undefined on input line 85.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 89--96
 
  []
@@ -409,7 +409,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--123
 
  []
 
-<./img/Lab 10/10_2_1.png, id=34, 1101.11375pt x 366.36874pt>
+<./img/Lab 10/10_2_1.png, id=33, 1101.11375pt x 366.36874pt>
 File: ./img/Lab 10/10_2_1.png Graphic file (type png)
 <use ./img/Lab 10/10_2_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_2_1.png  used on input line 144.
@@ -436,7 +436,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--178
 
  []
 
-<./img/Lab 10/10_3_1.png, id=43, 941.5175pt x 449.68pt>
+<./img/Lab 10/10_3_1.png, id=42, 941.5175pt x 449.68pt>
 File: ./img/Lab 10/10_3_1.png Graphic file (type png)
 <use ./img/Lab 10/10_3_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_3_1.png  used on input line 199.
@@ -463,7 +463,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--219
 
  []
 
-<./img/Lab 10/10_5_1.png, id=52, 682.55pt x 625.33624pt>
+<./img/Lab 10/10_5_1.png, id=51, 682.55pt x 625.33624pt>
 File: ./img/Lab 10/10_5_1.png Graphic file (type png)
 <use ./img/Lab 10/10_5_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_5_1.png  used on input line 225.
@@ -480,7 +480,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--241
 
  []
 
-<./img/Lab 10/10_6_1.png, id=62, 617.30624pt x 723.70375pt>
+<./img/Lab 10/10_6_1.png, id=61, 617.30624pt x 723.70375pt>
 File: ./img/Lab 10/10_6_1.png Graphic file (type png)
 <use ./img/Lab 10/10_6_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_6_1.png  used on input line 253.
@@ -504,7 +504,7 @@ Overfull \hbox (16.35944pt too wide) in paragraph at lines 281--282
 []\OT1/cmr/m/n/10 To replicate the CMOS NAND gate circuit, we used the following pin connections
  []
 
-<./img/Lab 10/10_7_1.png, id=80, 699.61375pt x 463.7325pt>
+<./img/Lab 10/10_7_1.png, id=79, 699.61375pt x 463.7325pt>
 File: ./img/Lab 10/10_7_1.png Graphic file (type png)
 <use ./img/Lab 10/10_7_1.png>
 Package pdftex.def Info: ./img/Lab 10/10_7_1.png  used on input line 293.
@@ -528,7 +528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 350--357
 
  []
 
-<./img/Lab 11/11_1_1.png, id=97, 559.08875pt x 279.0425pt>
+<./img/Lab 11/11_1_1.png, id=96, 559.08875pt x 279.0425pt>
 File: ./img/Lab 11/11_1_1.png Graphic file (type png)
 <use ./img/Lab 11/11_1_1.png>
 Package pdftex.def Info: ./img/Lab 11/11_1_1.png  used on input line 360.
@@ -582,7 +582,7 @@ Overfull \hbox (18.24135pt too wide) in paragraph at lines 444--445
 \OT1/cmr/m/n/10 clock is active. This setup is commonly used in digital systems where synchronization
  []
 
-<./img/Lab 11/11_2_1.png, id=116, 752.8125pt x 404.51125pt>
+<./img/Lab 11/11_2_1.png, id=115, 752.8125pt x 404.51125pt>
 File: ./img/Lab 11/11_2_1.png Graphic file (type png)
 <use ./img/Lab 11/11_2_1.png>
 Package pdftex.def Info: ./img/Lab 11/11_2_1.png  used on input line 448.
@@ -617,17 +617,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 479--488
 
 
 [14 <./img/Lab 11/11_2_1.png>]
-<./img/Lab 11/11_3_1.png, id=133, 618.6312pt x 171.2799pt>
+<./img/Lab 11/11_3_1.png, id=132, 618.6312pt x 171.2799pt>
 File: ./img/Lab 11/11_3_1.png Graphic file (type png)
 <use ./img/Lab 11/11_3_1.png>
 Package pdftex.def Info: ./img/Lab 11/11_3_1.png  used on input line 491.
 (pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
-<./img/Lab 11/11_3_2.png, id=134, 618.6312pt x 171.2799pt>
+<./img/Lab 11/11_3_2.png, id=133, 618.6312pt x 171.2799pt>
 File: ./img/Lab 11/11_3_2.png Graphic file (type png)
 <use ./img/Lab 11/11_3_2.png>
 Package pdftex.def Info: ./img/Lab 11/11_3_2.png  used on input line 498.
 (pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
-<./img/Lab 11/11_3_3.png, id=135, 618.6312pt x 171.2799pt>
+<./img/Lab 11/11_3_3.png, id=134, 618.6312pt x 171.2799pt>
 File: ./img/Lab 11/11_3_3.png Graphic file (type png)
 <use ./img/Lab 11/11_3_3.png>
 Package pdftex.def Info: ./img/Lab 11/11_3_3.png  used on input line 505.
@@ -640,6 +640,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--535
  []
 
 
+LaTeX Warning: Reference `fig:D_FlipFlop_Oscilloscope_1' on page 16 undefined on input line 536.
+
+
+LaTeX Warning: Reference `fig:D_FlipFlop_Oscilloscope_3' on page 16 undefined on input line 536.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 542--547
 
  []
@@ -649,7 +655,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 548--551
 
  []
 
-<./img/Lab 11/11_5_1.png, id=149, 395.4775pt x 319.1925pt>
+<./img/Lab 11/11_5_1.png, id=146, 395.4775pt x 319.1925pt>
 File: ./img/Lab 11/11_5_1.png Graphic file (type png)
 <use ./img/Lab 11/11_5_1.png>
 Package pdftex.def Info: ./img/Lab 11/11_5_1.png  used on input line 554.
@@ -661,12 +667,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 560--563
 
  []
 
-<./img/Lab 11/11_5_2.png, id=157, 618.6312pt x 171.2799pt>
+<./img/Lab 11/11_5_2.png, id=154, 618.6312pt x 171.2799pt>
 File: ./img/Lab 11/11_5_2.png Graphic file (type png)
 <use ./img/Lab 11/11_5_2.png>
 Package pdftex.def Info: ./img/Lab 11/11_5_2.png  used on input line 566.
 (pdftex.def)             Requested size: 276.00105pt x 76.41663pt.
-<./img/Lab 11/11_5_3.png, id=158, 618.6312pt x 171.2799pt>
+<./img/Lab 11/11_5_3.png, id=155, 618.6312pt x 171.2799pt>
 File: ./img/Lab 11/11_5_3.png Graphic file (type png)
 <use ./img/Lab 11/11_5_3.png>
 Package pdftex.def Info: ./img/Lab 11/11_5_3.png  used on input line 573.
@@ -698,7 +704,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 598--603
 
  []
 
-<./img/Lab 11/11_6_1.png, id=173, 470.75874pt x 236.885pt>
+<./img/Lab 11/11_6_1.png, id=168, 470.75874pt x 236.885pt>
 File: ./img/Lab 11/11_6_1.png Graphic file (type png)
 <use ./img/Lab 11/11_6_1.png>
 Package pdftex.def Info: ./img/Lab 11/11_6_1.png  used on input line 606.
@@ -715,12 +721,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 616--619
 
  []
 
-<./img/Lab 11/11_6_2.png, id=179, 618.6312pt x 226.9278pt>
+<./img/Lab 11/11_6_2.png, id=174, 618.6312pt x 226.9278pt>
 File: ./img/Lab 11/11_6_2.png Graphic file (type png)
 <use ./img/Lab 11/11_6_2.png>
 Package pdftex.def Info: ./img/Lab 11/11_6_2.png  used on input line 622.
 (pdftex.def)             Requested size: 276.00105pt x 101.24397pt.
-<./img/Lab 11/11_6_3.png, id=180, 618.6312pt x 226.9278pt>
+<./img/Lab 11/11_6_3.png, id=175, 618.6312pt x 226.9278pt>
 File: ./img/Lab 11/11_6_3.png Graphic file (type png)
 <use ./img/Lab 11/11_6_3.png>
 Package pdftex.def Info: ./img/Lab 11/11_6_3.png  used on input line 629.
@@ -738,14 +744,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 639--644
  []
 
 
+LaTeX Warning: Reference `fig:Clock_U1_Ripple' on page 20 undefined on input line 646.
+
+
+LaTeX Warning: Reference `fig:Q_Outputs_Ripple' on page 20 undefined on input line 647.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 645--648
 
  []
 
 
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 4/LaTex Lab/Report 4.tex:653: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.653     \textbf
+                 {Question 7: Cascading Four Flip-Flops with LEDs}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 
 [20 <./img/Lab 11/11_6_3.png>]
-Overfull \hbox (11.00053pt too wide) in paragraph at lines 682--683
+Underfull \hbox (badness 10000) in paragraph at lines 658--661
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--665
+
+ []
+
+
+/Users/enriquerivera/Documents/School/Y4S1/Eletronic Techniques/Report 4/LaTex Lab/Report 4.tex:667: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667     \textbf
+                 {Question 8: Shift Register with Four Flip-Flops}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--670
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--674
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--678
+
+ []
+
+
+Overfull \hbox (11.69505pt too wide) in paragraph at lines 679--682
+\OT1/cmr/m/n/10 - Jitter, caused by propagation delays or noise, results in minor timing discrepancies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--682
+
+ []
+
+
+Overfull \hbox (11.00053pt too wide) in paragraph at lines 683--684
 []\OT1/cmr/m/n/10 This experiment showcases the practical applications of cascaded and sequential
  []
 
@@ -758,23 +831,32 @@ L3 programming layer <2024-08-30>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `"Report 4".out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `"Report 4".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Report 4".out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14597 strings out of 475833
- 297319 string characters out of 2775517
- 641736 words of memory out of 3000000
- 37018 multiletter control sequences out of 15000+600000
+ 14589 strings out of 475833
+ 296948 string characters out of 2775517
+ 640342 words of memory out of 3000000
+ 37016 multiletter control sequences out of 15000+600000
  564406 words of font info for 58 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,10n,80p,744b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,10n,80p,749b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/enriquerivera/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Report 4.pdf" (21 pages, 534167 bytes).
+Output written on "Report 4.pdf" (21 pages, 532949 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
+ 249 PDF objects out of 1000 (max. 8388607)
  87 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
